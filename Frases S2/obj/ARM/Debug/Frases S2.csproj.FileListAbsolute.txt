@@ -1,0 +1,45 @@
+D:\VS2013\Projects\Frases S2\Frases S2\Bin\ARM\Debug\Assets\ApplicationIcon.png
+D:\VS2013\Projects\Frases S2\Frases S2\Bin\ARM\Debug\Assets\Tiles\FlipCycleTileLarge.png
+D:\VS2013\Projects\Frases S2\Frases S2\Bin\ARM\Debug\Assets\Tiles\FlipCycleTileMedium.png
+D:\VS2013\Projects\Frases S2\Frases S2\Bin\ARM\Debug\Assets\Tiles\FlipCycleTileSmall.png
+D:\VS2013\Projects\Frases S2\Frases S2\Bin\ARM\Debug\Assets\Tiles\IconicTileMediumLarge.png
+D:\VS2013\Projects\Frases S2\Frases S2\Bin\ARM\Debug\Assets\Tiles\IconicTileSmall.png
+D:\VS2013\Projects\Frases S2\Frases S2\Bin\ARM\Debug\Frases S2.dll
+D:\VS2013\Projects\Frases S2\Frases S2\Bin\ARM\Debug\Frases S2.pdb
+D:\VS2013\Projects\Frases S2\Frases S2\Bin\ARM\Debug\AppManifest.xaml
+D:\VS2013\Projects\Frases S2\Frases S2\Bin\ARM\Debug\Properties\WMAppManifest.xml
+D:\VS2013\Projects\Frases S2\Frases S2\Bin\ARM\Debug\Frases_S2_Debug_ARM.xap
+D:\VS2013\Projects\Frases S2\Frases S2\Bin\ARM\Debug\Microsoft.Phone.Controls.dll
+D:\VS2013\Projects\Frases S2\Frases S2\obj\ARM\Debug\App.g.cs
+D:\VS2013\Projects\Frases S2\Frases S2\obj\ARM\Debug\MainPage.g.cs
+D:\VS2013\Projects\Frases S2\Frases S2\obj\ARM\Debug\Sobre.g.cs
+D:\VS2013\Projects\Frases S2\Frases S2\obj\ARM\Debug\Visualizar.g.cs
+D:\VS2013\Projects\Frases S2\Frases S2\obj\ARM\Debug\Frases S2.g.resources
+D:\VS2013\Projects\Frases S2\Frases S2\obj\ARM\Debug\Frases_S2.Resources.AppResources.resources
+D:\VS2013\Projects\Frases S2\Frases S2\obj\ARM\Debug\Frases S2.csproj.GenerateResource.Cache
+D:\VS2013\Projects\Frases S2\Frases S2\obj\ARM\Debug\Frases S2.dll
+D:\VS2013\Projects\Frases S2\Frases S2\obj\ARM\Debug\Frases S2.pdb
+D:\VS2013\Projects\Frases S2\Frases S2\obj\ARM\Debug\XapCacheFile.xml
+D:\VS2013\Projects\Frases S2\Frases S2\obj\ARM\Debug\Frases S2.csprojResolveAssemblyReference.cache
+D:\VS2013\Projects\Frases S2\Frases S2\Bin\ARM\Debug\Frases S2.dll.config
+D:\VS2013\Projects\Frases S2\Frases S2\Bin\ARM\Debug\Microsoft.AdMediator.Core.dll
+D:\VS2013\Projects\Frases S2\Frases S2\Bin\ARM\Debug\Microsoft.AdMediator.WindowsPhone8.dll
+D:\VS2013\Projects\Frases S2\Frases S2\Bin\ARM\Debug\Microsoft.AdMediator.WindowsPhone8.MicrosoftAdvertising.dll
+D:\VS2013\Projects\Frases S2\Frases S2\Bin\ARM\Debug\Microsoft.Advertising.Mobile.Common.dll
+D:\VS2013\Projects\Frases S2\Frases S2\Bin\ARM\Debug\Microsoft.Advertising.Mobile.dll
+D:\VS2013\Projects\Frases S2\Frases S2\Bin\ARM\Debug\Microsoft.Advertising.Mobile.UI.dll
+D:\VS2013\Projects\Frases S2\Frases S2\Bin\ARM\Debug\Microsoft.Phone.Controls.Maps.dll
+D:\VS2013\Projects\Frases S2\Frases S2\Bin\ARM\Debug\Microsoft.Advertising.Mobile.xml
+D:\VS2013\Projects\Frases S2\Frases S2\Bin\ARM\Debug\Microsoft.Advertising.Mobile.Common.xml
+D:\VS2013\Projects\Frases S2\Frases S2\Bin\ARM\Debug\Microsoft.Advertising.Mobile.UI.xml
+D:\Visual Studio 2015\Projects\Frases S2\Frases S2\obj\ARM\Debug\Frases S2.csprojResolveAssemblyReference.cache
+D:\Visual Studio 2015\Projects\Frases S2\Frases S2\obj\ARM\Debug\App.g.cs
+D:\Visual Studio 2015\Projects\Frases S2\Frases S2\obj\ARM\Debug\MainPage.g.cs
+D:\Visual Studio 2015\Projects\Frases S2\Frases S2\obj\ARM\Debug\Sobre.g.cs
+D:\Visual Studio 2015\Projects\Frases S2\Frases S2\obj\ARM\Debug\Visualizar.g.cs
+D:\Visual Studio 2015\Projects\Frases S2\Frases S2\obj\ARM\Debug\Frases S2.g.resources
+D:\Visual Studio 2015\Projects\Frases S2\Frases S2\obj\ARM\Debug\Frases_S2.Resources.AppResources.resources
+D:\Visual Studio 2015\Projects\Frases S2\Frases S2\obj\ARM\Debug\Frases_S2.Resources.AppResources.pt-BR.resources
+D:\Visual Studio 2015\Projects\Frases S2\Frases S2\obj\ARM\Debug\Frases S2.csproj.GenerateResource.Cache
+D:\Visual Studio 2015\Projects\Frases S2\Frases S2\obj\ARM\Debug\Frases S2.dll
+D:\Visual Studio 2015\Projects\Frases S2\Frases S2\obj\ARM\Debug\Frases S2.pdb

@@ -1,0 +1,20 @@
+D:\VS2013\Projects\Frases S2\Frases S2\Bin\Debug\Assets\ApplicationIcon.png
+D:\VS2013\Projects\Frases S2\Frases S2\Bin\Debug\Assets\Tiles\FlipCycleTileLarge.png
+D:\VS2013\Projects\Frases S2\Frases S2\Bin\Debug\Assets\Tiles\FlipCycleTileMedium.png
+D:\VS2013\Projects\Frases S2\Frases S2\Bin\Debug\Assets\Tiles\FlipCycleTileSmall.png
+D:\VS2013\Projects\Frases S2\Frases S2\Bin\Debug\Assets\Tiles\IconicTileMediumLarge.png
+D:\VS2013\Projects\Frases S2\Frases S2\Bin\Debug\Assets\Tiles\IconicTileSmall.png
+D:\VS2013\Projects\Frases S2\Frases S2\Bin\Debug\Frases S2.dll
+D:\VS2013\Projects\Frases S2\Frases S2\Bin\Debug\Frases S2.pdb
+D:\VS2013\Projects\Frases S2\Frases S2\Bin\Debug\AppManifest.xaml
+D:\VS2013\Projects\Frases S2\Frases S2\Bin\Debug\Properties\WMAppManifest.xml
+D:\VS2013\Projects\Frases S2\Frases S2\Bin\Debug\Frases_S2_Debug_AnyCPU.xap
+D:\VS2013\Projects\Frases S2\Frases S2\obj\Debug\App.g.cs
+D:\VS2013\Projects\Frases S2\Frases S2\obj\Debug\MainPage.g.cs
+D:\VS2013\Projects\Frases S2\Frases S2\obj\Debug\Frases S2.g.resources
+D:\VS2013\Projects\Frases S2\Frases S2\obj\Debug\Frases_S2.Resources.AppResources.resources
+D:\VS2013\Projects\Frases S2\Frases S2\obj\Debug\Frases S2.csproj.GenerateResource.Cache
+D:\VS2013\Projects\Frases S2\Frases S2\obj\Debug\Frases S2.dll
+D:\VS2013\Projects\Frases S2\Frases S2\obj\Debug\Frases S2.pdb
+D:\VS2013\Projects\Frases S2\Frases S2\obj\Debug\XapCacheFile.xml
+D:\VS2013\Projects\Frases S2\Frases S2\obj\Debug\Visualizar.g.cs

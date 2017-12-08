@@ -1,0 +1,1491 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{47F0C7F1-4564-4471-BAF1-1C1058415005}</ProjectGuid>
+    <ProjectTypeGuids>{C089C8C0-30E0-4E22-80C0-CE093F111A43};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Frases_S2</RootNamespace>
+    <AssemblyName>Frases S2</AssemblyName>
+    <TargetFrameworkIdentifier>WindowsPhone</TargetFrameworkIdentifier>
+    <TargetFrameworkVersion>v8.0</TargetFrameworkVersion>
+    <SilverlightVersion>$(TargetFrameworkVersion)</SilverlightVersion>
+    <SilverlightApplication>true</SilverlightApplication>
+    <SupportedCultures>
+    </SupportedCultures>
+    <XapOutputs>true</XapOutputs>
+    <GenerateSilverlightManifest>true</GenerateSilverlightManifest>
+    <XapFilename>Frases_S2_Release_ARM2015.xap</XapFilename>
+    <SilverlightManifestTemplate>Properties\AppManifest.xml</SilverlightManifestTemplate>
+    <SilverlightAppEntry>Frases_S2.App</SilverlightAppEntry>
+    <ValidateXaml>true</ValidateXaml>
+    <MinimumVisualStudioVersion>11.0</MinimumVisualStudioVersion>
+    <ThrowErrorsInValidation>true</ThrowErrorsInValidation>
+    <ExpressionBlendVersion>12.0.51020.0</ExpressionBlendVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Bin\Debug</OutputPath>
+    <DefineConstants>DEBUG;TRACE;SILVERLIGHT;WINDOWS_PHONE</DefineConstants>
+    <NoStdLib>true</NoStdLib>
+    <NoConfig>true</NoConfig>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>Bin\Release</OutputPath>
+    <DefineConstants>TRACE;SILVERLIGHT;WINDOWS_PHONE</DefineConstants>
+    <NoStdLib>true</NoStdLib>
+    <NoConfig>true</NoConfig>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Bin\x86\Debug</OutputPath>
+    <DefineConstants>DEBUG;TRACE;SILVERLIGHT;WINDOWS_PHONE</DefineConstants>
+    <NoStdLib>true</NoStdLib>
+    <NoConfig>true</NoConfig>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>Bin\x86\Release</OutputPath>
+    <DefineConstants>TRACE;SILVERLIGHT;WINDOWS_PHONE</DefineConstants>
+    <NoStdLib>true</NoStdLib>
+    <NoConfig>true</NoConfig>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|ARM' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Bin\ARM\Debug</OutputPath>
+    <DefineConstants>DEBUG;TRACE;SILVERLIGHT;WINDOWS_PHONE</DefineConstants>
+    <NoStdLib>true</NoStdLib>
+    <NoConfig>true</NoConfig>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|ARM' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>Bin\ARM\Release</OutputPath>
+    <DefineConstants>TRACE;SILVERLIGHT;WINDOWS_PHONE</DefineConstants>
+    <NoStdLib>true</NoStdLib>
+    <NoConfig>true</NoConfig>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="LocalizedStrings.cs" />
+    <Compile Include="MainPage.xaml.cs">
+      <DependentUpon>MainPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Metodos\Compartilhar.cs" />
+    <Compile Include="Metodos\erro.cs" />
+    <Compile Include="Metodos\Sobre.cs" />
+    <Compile Include="Models\ModelCategorias.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Resources\AppResources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AppResources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Sobre.xaml.cs">
+      <DependentUpon>Sobre.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Visualizar.xaml.cs">
+      <DependentUpon>Visualizar.xaml</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="App.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </ApplicationDefinition>
+    <Page Include="MainPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Sobre.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Visualizar.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="AdMediator.config" />
+    <Content Include="Assets\AppBar\feature.camera.png" />
+    <Content Include="Assets\Imgs.png" />
+    <Content Include="Assets\user.png" />
+    <Content Include="BLOCOS\Bloco_Deus.jpg" />
+    <Content Include="BLOCOS\Bloco_Amizade.jpg" />
+    <Content Include="BLOCOS\Bloco_Amor.jpg" />
+    <Content Include="BLOCOS\Bloco_Aniversario.jpg" />
+    <Content Include="BLOCOS\Bloco_Boa_Noite.jpg" />
+    <Content Include="BLOCOS\Bloco_Boa_Tarde.jpg" />
+    <Content Include="BLOCOS\Bloco_Bom_Dia.jpg" />
+    <Content Include="BLOCOS\Bloco_Ciumes.jpg" />
+    <Content Include="BLOCOS\Bloco_Desculpas.jpg" />
+    <Content Include="BLOCOS\Bloco_Dia_das_Mães.jpg" />
+    <Content Include="BLOCOS\Bloco_Dia_dos_Pais.jpg" />
+    <Content Include="BLOCOS\Bloco_Engraçadas.jpg" />
+    <Content Include="BLOCOS\Bloco_Feliz_Natal.jpg" />
+    <Content Include="BLOCOS\Bloco_Indiretas.jpg" />
+    <Content Include="BLOCOS\Bloco_Motivacao.jpg" />
+    <Content Include="BLOCOS\Bloco_Musicas.jpg" />
+    <Content Include="BLOCOS\Bloco_Saudades.jpg" />
+    <Content Include="BLOCOS\Bloco_Tristeza.jpg" />
+    <Content Include="Conteudo\amizade\80.txt" />
+    <Content Include="Conteudo\amizade\88.txt" />
+    <Content Include="Conteudo\amizade\89.txt" />
+    <Content Include="Conteudo\amizade\87.txt" />
+    <Content Include="Conteudo\amizade\86.txt" />
+    <Content Include="Conteudo\amizade\85.txt" />
+    <Content Include="Conteudo\amizade\84.txt" />
+    <Content Include="Conteudo\amizade\83.txt" />
+    <Content Include="Conteudo\amizade\82.txt" />
+    <Content Include="Conteudo\amizade\81.txt" />
+    <Content Include="Conteudo\amizade\autor\100.txt" />
+    <Content Include="Conteudo\amizade\autor\56.txt" />
+    <Content Include="Conteudo\amizade\autor\57.txt" />
+    <Content Include="Conteudo\amizade\autor\58.txt" />
+    <Content Include="Conteudo\amizade\autor\59.txt" />
+    <Content Include="Conteudo\amizade\autor\60.txt" />
+    <Content Include="Conteudo\amizade\autor\61.txt" />
+    <Content Include="Conteudo\amizade\autor\62.txt" />
+    <Content Include="Conteudo\amizade\autor\63.txt" />
+    <Content Include="Conteudo\amizade\autor\64.txt" />
+    <Content Include="Conteudo\amizade\autor\65.txt" />
+    <Content Include="Conteudo\amizade\autor\66.txt" />
+    <Content Include="Conteudo\amizade\autor\67.txt" />
+    <Content Include="Conteudo\amizade\autor\68.txt" />
+    <Content Include="Conteudo\amizade\autor\69.txt" />
+    <Content Include="Conteudo\amizade\autor\70.txt" />
+    <Content Include="Conteudo\amizade\autor\71.txt" />
+    <Content Include="Conteudo\amizade\autor\72.txt" />
+    <Content Include="Conteudo\amizade\autor\73.txt" />
+    <Content Include="Conteudo\amizade\autor\74.txt" />
+    <Content Include="Conteudo\amizade\autor\75.txt" />
+    <Content Include="Conteudo\amizade\autor\76.txt" />
+    <Content Include="Conteudo\amizade\autor\78.txt" />
+    <Content Include="Conteudo\amizade\autor\79.txt" />
+    <Content Include="Conteudo\amizade\autor\80.txt" />
+    <Content Include="Conteudo\amizade\autor\81.txt" />
+    <Content Include="Conteudo\amizade\autor\82.txt" />
+    <Content Include="Conteudo\amizade\autor\83.txt" />
+    <Content Include="Conteudo\amizade\autor\84.txt" />
+    <Content Include="Conteudo\amizade\autor\85.txt" />
+    <Content Include="Conteudo\amizade\autor\86.txt" />
+    <Content Include="Conteudo\amizade\autor\87.txt" />
+    <Content Include="Conteudo\amizade\autor\88.txt" />
+    <Content Include="Conteudo\amizade\autor\89.txt" />
+    <Content Include="Conteudo\amizade\autor\90.txt" />
+    <Content Include="Conteudo\amizade\autor\91.txt" />
+    <Content Include="Conteudo\amizade\autor\92.txt" />
+    <Content Include="Conteudo\amizade\autor\93.txt" />
+    <Content Include="Conteudo\amizade\autor\94.txt" />
+    <Content Include="Conteudo\amizade\autor\95.txt" />
+    <Content Include="Conteudo\amizade\autor\96.txt" />
+    <Content Include="Conteudo\amizade\autor\97.txt" />
+    <Content Include="Conteudo\amizade\autor\98.txt" />
+    <Content Include="Conteudo\amizade\autor\99.txt" />
+    <Content Include="Conteudo\amizade\frase\98.txt" />
+    <Content Include="Conteudo\amizade\frase\99.txt" />
+    <Content Include="Conteudo\amizade\frase\100.txt" />
+    <Content Include="Conteudo\amizade\frase\56.txt" />
+    <Content Include="Conteudo\amizade\frase\57.txt" />
+    <Content Include="Conteudo\amizade\frase\58.txt" />
+    <Content Include="Conteudo\amizade\frase\59.txt" />
+    <Content Include="Conteudo\amizade\frase\60.txt" />
+    <Content Include="Conteudo\amizade\frase\61.txt" />
+    <Content Include="Conteudo\amizade\frase\62.txt" />
+    <Content Include="Conteudo\amizade\frase\63.txt" />
+    <Content Include="Conteudo\amizade\frase\64.txt" />
+    <Content Include="Conteudo\amizade\frase\65.txt" />
+    <Content Include="Conteudo\amizade\frase\66.txt" />
+    <Content Include="Conteudo\amizade\frase\67.txt" />
+    <Content Include="Conteudo\amizade\frase\68.txt" />
+    <Content Include="Conteudo\amizade\frase\69.txt" />
+    <Content Include="Conteudo\amizade\frase\70.txt" />
+    <Content Include="Conteudo\amizade\frase\71.txt" />
+    <Content Include="Conteudo\amizade\frase\72.txt" />
+    <Content Include="Conteudo\amizade\frase\73.txt" />
+    <Content Include="Conteudo\amizade\frase\74.txt" />
+    <Content Include="Conteudo\amizade\frase\75.txt" />
+    <Content Include="Conteudo\amizade\frase\76.txt" />
+    <Content Include="Conteudo\amizade\frase\78.txt" />
+    <Content Include="Conteudo\amizade\frase\79.txt" />
+    <Content Include="Conteudo\amizade\frase\80.txt" />
+    <Content Include="Conteudo\amizade\frase\81.txt" />
+    <Content Include="Conteudo\amizade\frase\82.txt" />
+    <Content Include="Conteudo\amizade\frase\83.txt" />
+    <Content Include="Conteudo\amizade\frase\84.txt" />
+    <Content Include="Conteudo\amizade\frase\85.txt" />
+    <Content Include="Conteudo\amizade\frase\86.txt" />
+    <Content Include="Conteudo\amizade\frase\87.txt" />
+    <Content Include="Conteudo\amizade\frase\88.txt" />
+    <Content Include="Conteudo\amizade\frase\89.txt" />
+    <Content Include="Conteudo\amizade\frase\90.txt" />
+    <Content Include="Conteudo\amizade\frase\91.txt" />
+    <Content Include="Conteudo\amizade\frase\92.txt" />
+    <Content Include="Conteudo\amizade\frase\93.txt" />
+    <Content Include="Conteudo\amizade\frase\94.txt" />
+    <Content Include="Conteudo\amizade\frase\95.txt" />
+    <Content Include="Conteudo\amizade\frase\96.txt" />
+    <Content Include="Conteudo\amizade\frase\97.txt" />
+    <Content Include="Conteudo\aniversario\autor\24.txt" />
+    <Content Include="Conteudo\aniversario\autor\25.txt" />
+    <Content Include="Conteudo\aniversario\autor\26.txt" />
+    <Content Include="Conteudo\aniversario\autor\27.txt" />
+    <Content Include="Conteudo\aniversario\autor\28.txt" />
+    <Content Include="Conteudo\aniversario\autor\29.txt" />
+    <Content Include="Conteudo\aniversario\autor\30.txt" />
+    <Content Include="Conteudo\aniversario\autor\31.txt" />
+    <Content Include="Conteudo\aniversario\autor\32.txt" />
+    <Content Include="Conteudo\aniversario\autor\33.txt" />
+    <Content Include="Conteudo\aniversario\autor\34.txt" />
+    <Content Include="Conteudo\aniversario\autor\35.txt" />
+    <Content Include="Conteudo\aniversario\autor\36.txt" />
+    <Content Include="Conteudo\aniversario\autor\37.txt" />
+    <Content Include="Conteudo\aniversario\autor\38.txt" />
+    <Content Include="Conteudo\aniversario\autor\39.txt" />
+    <Content Include="Conteudo\aniversario\autor\40.txt" />
+    <Content Include="Conteudo\aniversario\autor\41.txt" />
+    <Content Include="Conteudo\aniversario\autor\42.txt" />
+    <Content Include="Conteudo\aniversario\frase\24.txt" />
+    <Content Include="Conteudo\aniversario\frase\25.txt" />
+    <Content Include="Conteudo\aniversario\frase\26.txt" />
+    <Content Include="Conteudo\aniversario\frase\27.txt" />
+    <Content Include="Conteudo\aniversario\frase\28.txt" />
+    <Content Include="Conteudo\aniversario\frase\29.txt" />
+    <Content Include="Conteudo\aniversario\frase\30.txt" />
+    <Content Include="Conteudo\aniversario\frase\31.txt" />
+    <Content Include="Conteudo\aniversario\frase\32.txt" />
+    <Content Include="Conteudo\aniversario\frase\33.txt" />
+    <Content Include="Conteudo\aniversario\frase\34.txt" />
+    <Content Include="Conteudo\aniversario\frase\35.txt" />
+    <Content Include="Conteudo\aniversario\frase\36.txt" />
+    <Content Include="Conteudo\aniversario\frase\37.txt" />
+    <Content Include="Conteudo\aniversario\frase\38.txt" />
+    <Content Include="Conteudo\aniversario\frase\39.txt" />
+    <Content Include="Conteudo\aniversario\frase\40.txt" />
+    <Content Include="Conteudo\aniversario\frase\41.txt" />
+    <Content Include="Conteudo\aniversario\frase\42.txt" />
+    <Content Include="Conteudo\Deus\autor\24.txt" />
+    <Content Include="Conteudo\Deus\autor\25.txt" />
+    <Content Include="Conteudo\Deus\autor\26.txt" />
+    <Content Include="Conteudo\Deus\autor\27.txt" />
+    <Content Include="Conteudo\Deus\autor\28.txt" />
+    <Content Include="Conteudo\Deus\autor\29.txt" />
+    <Content Include="Conteudo\Deus\autor\30.txt" />
+    <Content Include="Conteudo\Deus\autor\31.txt" />
+    <Content Include="Conteudo\Deus\autor\32.txt" />
+    <Content Include="Conteudo\Deus\autor\33.txt" />
+    <Content Include="Conteudo\Deus\autor\34.txt" />
+    <Content Include="Conteudo\Deus\autor\35.txt" />
+    <Content Include="Conteudo\Deus\autor\36.txt" />
+    <Content Include="Conteudo\Deus\autor\37.txt" />
+    <Content Include="Conteudo\Deus\autor\38.txt" />
+    <Content Include="Conteudo\Deus\autor\39.txt" />
+    <Content Include="Conteudo\Deus\autor\40.txt" />
+    <Content Include="Conteudo\Deus\autor\41.txt" />
+    <Content Include="Conteudo\Deus\autor\42.txt" />
+    <Content Include="Conteudo\Deus\autor\43.txt" />
+    <Content Include="Conteudo\Deus\autor\44.txt" />
+    <Content Include="Conteudo\Deus\autor\45.txt" />
+    <Content Include="Conteudo\Deus\autor\46.txt" />
+    <Content Include="Conteudo\Deus\autor\47.txt" />
+    <Content Include="Conteudo\Deus\autor\48.txt" />
+    <Content Include="Conteudo\Deus\autor\49.txt" />
+    <Content Include="Conteudo\Deus\autor\50.txt" />
+    <Content Include="Conteudo\Deus\autor\51.txt" />
+    <Content Include="Conteudo\Deus\frase\24.txt" />
+    <Content Include="Conteudo\Deus\frase\25.txt" />
+    <Content Include="Conteudo\Deus\frase\26.txt" />
+    <Content Include="Conteudo\Deus\frase\27.txt" />
+    <Content Include="Conteudo\Deus\frase\28.txt" />
+    <Content Include="Conteudo\Deus\frase\29.txt" />
+    <Content Include="Conteudo\Deus\frase\30.txt" />
+    <Content Include="Conteudo\Deus\frase\31.txt" />
+    <Content Include="Conteudo\Deus\frase\32.txt" />
+    <Content Include="Conteudo\Deus\frase\33.txt" />
+    <Content Include="Conteudo\Deus\frase\34.txt" />
+    <Content Include="Conteudo\Deus\frase\35.txt" />
+    <Content Include="Conteudo\Deus\frase\36.txt" />
+    <Content Include="Conteudo\Deus\frase\37.txt" />
+    <Content Include="Conteudo\Deus\frase\38.txt" />
+    <Content Include="Conteudo\Deus\frase\39.txt" />
+    <Content Include="Conteudo\Deus\frase\40.txt" />
+    <Content Include="Conteudo\Deus\frase\41.txt" />
+    <Content Include="Conteudo\Deus\frase\42.txt" />
+    <Content Include="Conteudo\Deus\frase\43.txt" />
+    <Content Include="Conteudo\Deus\frase\44.txt" />
+    <Content Include="Conteudo\Deus\frase\45.txt" />
+    <Content Include="Conteudo\Deus\frase\46.txt" />
+    <Content Include="Conteudo\Deus\frase\47.txt" />
+    <Content Include="Conteudo\Deus\frase\48.txt" />
+    <Content Include="Conteudo\Deus\frase\49.txt" />
+    <Content Include="Conteudo\Deus\frase\50.txt" />
+    <Content Include="Conteudo\Deus\frase\51.txt" />
+    <Content Include="frases.png" />
+    <Content Include="icone - Copia.png" />
+    <Content Include="icone.png" />
+    <Content Include="LOJA\Design.png" />
+    <Content Include="LOJA\PainelCategorias.png" />
+    <Content Include="LOJA\Sobre\Email.png" />
+    <Content Include="LOJA\Sobre\Informacao.png" />
+    <Content Include="LOJA\Social\Email.png" />
+    <Content Include="LOJA\Social\twitter.png" />
+    <Content Include="LOJA\Social\whatsapp.png" />
+    <Content Include="MENU\Background.jpg" />
+    <Content Include="MENU\Bloco_Categorias.jpg" />
+    <None Include="app.config" />
+    <None Include="packages.config" />
+    <None Include="Properties\AppManifest.xml" />
+    <None Include="Properties\WMAppManifest.xml">
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Assets\AlignmentGrid.png" />
+    <Content Include="Assets\AppBar1\back.png" />
+    <Content Include="Assets\AppBar2\share.png" />
+    <Content Include="Assets\AppBar3\next.png" />
+    <Content Include="Assets\AppBar4\favs.png" />
+    <Content Include="Assets\AppBar\add.png" />
+    <Content Include="Assets\AppBar\transport.play.png" />
+    <Content Include="Assets\ApplicationIcon.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Tiles\FlipCycleTileLarge.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Tiles\FlipCycleTileMedium.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Tiles\FlipCycleTileSmall.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Tiles\IconicTileMediumLarge.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Tiles\IconicTileSmall.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Conteudo\amizade\autor\1.txt" />
+    <Content Include="Conteudo\amizade\autor\10.txt" />
+    <Content Include="Conteudo\amizade\autor\11.txt" />
+    <Content Include="Conteudo\amizade\autor\12.txt" />
+    <Content Include="Conteudo\amizade\autor\13.txt" />
+    <Content Include="Conteudo\amizade\autor\14.txt" />
+    <Content Include="Conteudo\amizade\autor\15.txt" />
+    <Content Include="Conteudo\amizade\autor\16.txt" />
+    <Content Include="Conteudo\amizade\autor\17.txt" />
+    <Content Include="Conteudo\amizade\autor\18.txt" />
+    <Content Include="Conteudo\amizade\autor\19.txt" />
+    <Content Include="Conteudo\amizade\autor\2.txt" />
+    <Content Include="Conteudo\amizade\autor\46.txt" />
+    <Content Include="Conteudo\amizade\autor\45.txt" />
+    <Content Include="Conteudo\amizade\autor\49.txt" />
+    <Content Include="Conteudo\amizade\autor\48.txt" />
+    <Content Include="Conteudo\amizade\autor\44.txt" />
+    <Content Include="Conteudo\amizade\autor\47.txt" />
+    <Content Include="Conteudo\amizade\autor\55.txt" />
+    <Content Include="Conteudo\amizade\autor\54.txt" />
+    <Content Include="Conteudo\amizade\autor\53.txt" />
+    <Content Include="Conteudo\amizade\autor\52.txt" />
+    <Content Include="Conteudo\amizade\autor\50.txt" />
+    <Content Include="Conteudo\amizade\autor\43.txt" />
+    <Content Include="Conteudo\amizade\autor\42.txt" />
+    <Content Include="Conteudo\amizade\autor\40.txt" />
+    <Content Include="Conteudo\amizade\autor\38.txt" />
+    <Content Include="Conteudo\amizade\autor\39.txt" />
+    <Content Include="Conteudo\amizade\autor\37.txt" />
+    <Content Include="Conteudo\amizade\autor\36.txt" />
+    <Content Include="Conteudo\amizade\autor\35.txt" />
+    <Content Include="Conteudo\amizade\autor\34.txt" />
+    <Content Include="Conteudo\amizade\autor\33.txt" />
+    <Content Include="Conteudo\amizade\autor\32.txt" />
+    <Content Include="Conteudo\amizade\autor\31.txt" />
+    <Content Include="Conteudo\amizade\autor\30.txt" />
+    <Content Include="Conteudo\amizade\autor\29.txt" />
+    <Content Include="Conteudo\amizade\autor\28.txt" />
+    <Content Include="Conteudo\amizade\autor\27.txt" />
+    <Content Include="Conteudo\amizade\autor\26.txt" />
+    <Content Include="Conteudo\amizade\autor\25.txt" />
+    <Content Include="Conteudo\amizade\autor\24.txt" />
+    <Content Include="Conteudo\amizade\autor\23.txt" />
+    <Content Include="Conteudo\amizade\autor\21.txt" />
+    <Content Include="Conteudo\amizade\autor\41.txt" />
+    <Content Include="Conteudo\amizade\autor\22.txt" />
+    <Content Include="Conteudo\amizade\autor\20.txt" />
+    <Content Include="Conteudo\amizade\autor\3.txt" />
+    <Content Include="Conteudo\amizade\autor\4.txt" />
+    <Content Include="Conteudo\amizade\autor\5.txt" />
+    <Content Include="Conteudo\amizade\autor\51.txt" />
+    <Content Include="Conteudo\amizade\autor\6.txt" />
+    <Content Include="Conteudo\amizade\autor\7.txt" />
+    <Content Include="Conteudo\amizade\autor\8.txt" />
+    <Content Include="Conteudo\amizade\autor\9.txt" />
+    <Content Include="Conteudo\amizade\frase\1.txt" />
+    <Content Include="Conteudo\amizade\frase\10.txt" />
+    <Content Include="Conteudo\amizade\frase\11.txt" />
+    <Content Include="Conteudo\amizade\frase\12.txt" />
+    <Content Include="Conteudo\amizade\frase\13.txt" />
+    <Content Include="Conteudo\amizade\frase\14.txt" />
+    <Content Include="Conteudo\amizade\frase\15.txt" />
+    <Content Include="Conteudo\amizade\frase\16.txt" />
+    <Content Include="Conteudo\amizade\frase\17.txt" />
+    <Content Include="Conteudo\amizade\frase\18.txt" />
+    <Content Include="Conteudo\amizade\frase\19.txt" />
+    <Content Include="Conteudo\amizade\frase\2.txt" />
+    <Content Include="Conteudo\amizade\frase\24.txt" />
+    <Content Include="Conteudo\amizade\frase\25.txt" />
+    <Content Include="Conteudo\amizade\frase\29.txt" />
+    <Content Include="Conteudo\amizade\frase\30.txt" />
+    <Content Include="Conteudo\amizade\frase\31.txt" />
+    <Content Include="Conteudo\amizade\frase\33.txt" />
+    <Content Include="Conteudo\amizade\frase\36.txt" />
+    <Content Include="Conteudo\amizade\frase\37.txt" />
+    <Content Include="Conteudo\amizade\frase\40.txt" />
+    <Content Include="Conteudo\amizade\frase\42.txt" />
+    <Content Include="Conteudo\amizade\frase\43.txt" />
+    <Content Include="Conteudo\amizade\frase\48.txt" />
+    <Content Include="Conteudo\amizade\frase\49.txt" />
+    <Content Include="Conteudo\amizade\frase\47.txt" />
+    <Content Include="Conteudo\amizade\frase\52.txt" />
+    <Content Include="Conteudo\amizade\frase\53.txt" />
+    <Content Include="Conteudo\amizade\frase\54.txt" />
+    <Content Include="Conteudo\amizade\frase\55.txt" />
+    <Content Include="Conteudo\amizade\frase\51.txt" />
+    <Content Include="Conteudo\amizade\frase\50.txt" />
+    <Content Include="Conteudo\amizade\frase\46.txt" />
+    <Content Include="Conteudo\amizade\frase\44.txt" />
+    <Content Include="Conteudo\amizade\frase\45.txt" />
+    <Content Include="Conteudo\amizade\frase\41.txt" />
+    <Content Include="Conteudo\amizade\frase\39.txt" />
+    <Content Include="Conteudo\amizade\frase\38.txt" />
+    <Content Include="Conteudo\amizade\frase\35.txt" />
+    <Content Include="Conteudo\amizade\frase\34.txt" />
+    <Content Include="Conteudo\amizade\frase\32.txt" />
+    <Content Include="Conteudo\amizade\frase\28.txt" />
+    <Content Include="Conteudo\amizade\frase\27.txt" />
+    <Content Include="Conteudo\amizade\frase\26.txt" />
+    <Content Include="Conteudo\amizade\frase\21.txt" />
+    <Content Include="Conteudo\amizade\frase\22.txt" />
+    <Content Include="Conteudo\amizade\frase\23.txt" />
+    <Content Include="Conteudo\amizade\frase\20.txt" />
+    <Content Include="Conteudo\amizade\frase\3.txt" />
+    <Content Include="Conteudo\amizade\frase\4.txt" />
+    <Content Include="Conteudo\amizade\frase\5.txt" />
+    <Content Include="Conteudo\amizade\frase\6.txt" />
+    <Content Include="Conteudo\amizade\frase\7.txt" />
+    <Content Include="Conteudo\amizade\frase\8.txt" />
+    <Content Include="Conteudo\amizade\frase\9.txt" />
+    <Content Include="Conteudo\amor\autor\1.txt" />
+    <Content Include="Conteudo\amor\autor\10.txt" />
+    <Content Include="Conteudo\amor\autor\102.txt" />
+    <Content Include="Conteudo\amor\autor\101.txt" />
+    <Content Include="Conteudo\amor\autor\103.txt" />
+    <Content Include="Conteudo\amor\autor\104.txt" />
+    <Content Include="Conteudo\amor\autor\11.txt" />
+    <Content Include="Conteudo\amor\autor\12.txt" />
+    <Content Include="Conteudo\amor\autor\13.txt" />
+    <Content Include="Conteudo\amor\autor\14.txt" />
+    <Content Include="Conteudo\amor\autor\15.txt" />
+    <Content Include="Conteudo\amor\autor\16.txt" />
+    <Content Include="Conteudo\amor\autor\17.txt" />
+    <Content Include="Conteudo\amor\autor\18.txt" />
+    <Content Include="Conteudo\amor\autor\19.txt" />
+    <Content Include="Conteudo\amor\autor\2.txt" />
+    <Content Include="Conteudo\amor\autor\20.txt" />
+    <Content Include="Conteudo\amor\autor\21.txt" />
+    <Content Include="Conteudo\amor\autor\22.txt" />
+    <Content Include="Conteudo\amor\autor\23.txt" />
+    <Content Include="Conteudo\amor\autor\24.txt" />
+    <Content Include="Conteudo\amor\autor\25.txt" />
+    <Content Include="Conteudo\amor\autor\26.txt" />
+    <Content Include="Conteudo\amor\autor\27.txt" />
+    <Content Include="Conteudo\amor\autor\28.txt" />
+    <Content Include="Conteudo\amor\autor\29.txt" />
+    <Content Include="Conteudo\amor\autor\3.txt" />
+    <Content Include="Conteudo\amor\autor\30.txt" />
+    <Content Include="Conteudo\amor\autor\31.txt" />
+    <Content Include="Conteudo\amor\autor\32.txt" />
+    <Content Include="Conteudo\amor\autor\33.txt" />
+    <Content Include="Conteudo\amor\autor\34.txt" />
+    <Content Include="Conteudo\amor\autor\35.txt" />
+    <Content Include="Conteudo\amor\autor\36.txt" />
+    <Content Include="Conteudo\amor\autor\37.txt" />
+    <Content Include="Conteudo\amor\autor\38.txt" />
+    <Content Include="Conteudo\amor\autor\39.txt" />
+    <Content Include="Conteudo\amor\autor\4.txt" />
+    <Content Include="Conteudo\amor\autor\49.txt" />
+    <Content Include="Conteudo\amor\autor\48.txt" />
+    <Content Include="Conteudo\amor\autor\50.txt" />
+    <Content Include="Conteudo\amor\autor\47.txt" />
+    <Content Include="Conteudo\amor\autor\46.txt" />
+    <Content Include="Conteudo\amor\autor\45.txt" />
+    <Content Include="Conteudo\amor\autor\44.txt" />
+    <Content Include="Conteudo\amor\autor\42.txt" />
+    <Content Include="Conteudo\amor\autor\43.txt" />
+    <Content Include="Conteudo\amor\autor\41.txt" />
+    <Content Include="Conteudo\amor\autor\40.txt" />
+    <Content Include="Conteudo\amor\autor\5.txt" />
+    <Content Include="Conteudo\amor\autor\51.txt" />
+    <Content Include="Conteudo\amor\autor\52.txt" />
+    <Content Include="Conteudo\amor\autor\53.txt" />
+    <Content Include="Conteudo\amor\autor\54.txt" />
+    <Content Include="Conteudo\amor\autor\55.txt" />
+    <Content Include="Conteudo\amor\autor\56.txt" />
+    <Content Include="Conteudo\amor\autor\60.txt" />
+    <Content Include="Conteudo\amor\autor\59.txt" />
+    <Content Include="Conteudo\amor\autor\58.txt" />
+    <Content Include="Conteudo\amor\autor\57.txt" />
+    <Content Include="Conteudo\amor\autor\6.txt" />
+    <Content Include="Conteudo\amor\autor\61.txt" />
+    <Content Include="Conteudo\amor\autor\67.txt" />
+    <Content Include="Conteudo\amor\autor\68.txt" />
+    <Content Include="Conteudo\amor\autor\69.txt" />
+    <Content Include="Conteudo\amor\autor\71.txt" />
+    <Content Include="Conteudo\amor\autor\72.txt" />
+    <Content Include="Conteudo\amor\autor\73.txt" />
+    <Content Include="Conteudo\amor\autor\74.txt" />
+    <Content Include="Conteudo\amor\autor\89.txt" />
+    <Content Include="Conteudo\amor\autor\90.txt" />
+    <Content Include="Conteudo\amor\autor\88.txt" />
+    <Content Include="Conteudo\amor\autor\87.txt" />
+    <Content Include="Conteudo\amor\autor\86.txt" />
+    <Content Include="Conteudo\amor\autor\85.txt" />
+    <Content Include="Conteudo\amor\autor\84.txt" />
+    <Content Include="Conteudo\amor\autor\83.txt" />
+    <Content Include="Conteudo\amor\autor\82.txt" />
+    <Content Include="Conteudo\amor\autor\81.txt" />
+    <Content Include="Conteudo\amor\autor\80.txt" />
+    <Content Include="Conteudo\amor\autor\79.txt" />
+    <Content Include="Conteudo\amor\autor\78.txt" />
+    <Content Include="Conteudo\amor\autor\77.txt" />
+    <Content Include="Conteudo\amor\autor\76.txt" />
+    <Content Include="Conteudo\amor\autor\75.txt" />
+    <Content Include="Conteudo\amor\autor\70.txt" />
+    <Content Include="Conteudo\amor\autor\66.txt" />
+    <Content Include="Conteudo\amor\autor\65.txt" />
+    <Content Include="Conteudo\amor\autor\64.txt" />
+    <Content Include="Conteudo\amor\autor\63.txt" />
+    <Content Include="Conteudo\amor\autor\62.txt" />
+    <Content Include="Conteudo\amor\autor\7.txt" />
+    <Content Include="Conteudo\amor\autor\8.txt" />
+    <Content Include="Conteudo\amor\autor\9.txt" />
+    <Content Include="Conteudo\amor\autor\91.txt" />
+    <Content Include="Conteudo\amor\autor\92.txt" />
+    <Content Include="Conteudo\amor\autor\93.txt" />
+    <Content Include="Conteudo\amor\autor\94.txt" />
+    <Content Include="Conteudo\amor\autor\95.txt" />
+    <Content Include="Conteudo\amor\autor\96.txt" />
+    <Content Include="Conteudo\amor\autor\97.txt" />
+    <Content Include="Conteudo\amor\autor\98.txt" />
+    <Content Include="Conteudo\amor\autor\100.txt" />
+    <Content Include="Conteudo\amor\autor\99.txt" />
+    <Content Include="Conteudo\amor\frase\104.txt" />
+    <Content Include="Conteudo\amor\frase\103.txt" />
+    <Content Include="Conteudo\amor\frase\60.txt" />
+    <Content Include="Conteudo\amor\frase\59.txt" />
+    <Content Include="Conteudo\amor\frase\58.txt" />
+    <Content Include="Conteudo\amor\frase\57.txt" />
+    <Content Include="Conteudo\amor\frase\56.txt" />
+    <Content Include="Conteudo\amor\frase\1.txt" />
+    <Content Include="Conteudo\amor\frase\10.txt" />
+    <Content Include="Conteudo\amor\frase\11.txt" />
+    <Content Include="Conteudo\amor\frase\12.txt" />
+    <Content Include="Conteudo\amor\frase\13.txt" />
+    <Content Include="Conteudo\amor\frase\14.txt" />
+    <Content Include="Conteudo\amor\frase\15.txt" />
+    <Content Include="Conteudo\amor\frase\16.txt" />
+    <Content Include="Conteudo\amor\frase\17.txt" />
+    <Content Include="Conteudo\amor\frase\18.txt" />
+    <Content Include="Conteudo\amor\frase\19.txt" />
+    <Content Include="Conteudo\amor\frase\2.txt" />
+    <Content Include="Conteudo\amor\frase\20.txt" />
+    <Content Include="Conteudo\amor\frase\21.txt" />
+    <Content Include="Conteudo\amor\frase\22.txt" />
+    <Content Include="Conteudo\amor\frase\23.txt" />
+    <Content Include="Conteudo\amor\frase\24.txt" />
+    <Content Include="Conteudo\amor\frase\25.txt" />
+    <Content Include="Conteudo\amor\frase\26.txt" />
+    <Content Include="Conteudo\amor\frase\27.txt" />
+    <Content Include="Conteudo\amor\frase\28.txt" />
+    <Content Include="Conteudo\amor\frase\29.txt" />
+    <Content Include="Conteudo\amor\frase\3.txt" />
+    <Content Include="Conteudo\amor\frase\30.txt" />
+    <Content Include="Conteudo\amor\frase\31.txt" />
+    <Content Include="Conteudo\amor\frase\32.txt" />
+    <Content Include="Conteudo\amor\frase\33.txt" />
+    <Content Include="Conteudo\amor\frase\34.txt" />
+    <Content Include="Conteudo\amor\frase\35.txt" />
+    <Content Include="Conteudo\amor\frase\36.txt" />
+    <Content Include="Conteudo\amor\frase\37.txt" />
+    <Content Include="Conteudo\amor\frase\38.txt" />
+    <Content Include="Conteudo\amor\frase\39.txt" />
+    <Content Include="Conteudo\amor\frase\4.txt" />
+    <Content Include="Conteudo\amor\frase\40.txt" />
+    <Content Include="Conteudo\amor\frase\41.txt" />
+    <Content Include="Conteudo\amor\frase\42.txt" />
+    <Content Include="Conteudo\amor\frase\43.txt" />
+    <Content Include="Conteudo\amor\frase\44.txt" />
+    <Content Include="Conteudo\amor\frase\49.txt" />
+    <Content Include="Conteudo\amor\frase\55.txt" />
+    <Content Include="Conteudo\amor\frase\54.txt" />
+    <Content Include="Conteudo\amor\frase\53.txt" />
+    <Content Include="Conteudo\amor\frase\52.txt" />
+    <Content Include="Conteudo\amor\frase\51.txt" />
+    <Content Include="Conteudo\amor\frase\50.txt" />
+    <Content Include="Conteudo\amor\frase\48.txt" />
+    <Content Include="Conteudo\amor\frase\47.txt" />
+    <Content Include="Conteudo\amor\frase\46.txt" />
+    <Content Include="Conteudo\amor\frase\45.txt" />
+    <Content Include="Conteudo\amor\frase\5.txt" />
+    <Content Include="Conteudo\amor\frase\6.txt" />
+    <Content Include="Conteudo\amor\frase\70.txt" />
+    <Content Include="Conteudo\amor\frase\69.txt" />
+    <Content Include="Conteudo\amor\frase\68.txt" />
+    <Content Include="Conteudo\amor\frase\67.txt" />
+    <Content Include="Conteudo\amor\frase\66.txt" />
+    <Content Include="Conteudo\amor\frase\65.txt" />
+    <Content Include="Conteudo\amor\frase\64.txt" />
+    <Content Include="Conteudo\amor\frase\63.txt" />
+    <Content Include="Conteudo\amor\frase\62.txt" />
+    <Content Include="Conteudo\amor\frase\61.txt" />
+    <Content Include="Conteudo\amor\frase\7.txt" />
+    <Content Include="Conteudo\amor\frase\71.txt" />
+    <Content Include="Conteudo\amor\frase\72.txt" />
+    <Content Include="Conteudo\amor\frase\73.txt" />
+    <Content Include="Conteudo\amor\frase\74.txt" />
+    <Content Include="Conteudo\amor\frase\75.txt" />
+    <Content Include="Conteudo\amor\frase\76.txt" />
+    <Content Include="Conteudo\amor\frase\77.txt" />
+    <Content Include="Conteudo\amor\frase\78.txt" />
+    <Content Include="Conteudo\amor\frase\79.txt" />
+    <Content Include="Conteudo\amor\frase\8.txt" />
+    <Content Include="Conteudo\amor\frase\80.txt" />
+    <Content Include="Conteudo\amor\frase\81.txt" />
+    <Content Include="Conteudo\amor\frase\82.txt" />
+    <Content Include="Conteudo\amor\frase\83.txt" />
+    <Content Include="Conteudo\amor\frase\84.txt" />
+    <Content Include="Conteudo\amor\frase\85.txt" />
+    <Content Include="Conteudo\amor\frase\86.txt" />
+    <Content Include="Conteudo\amor\frase\87.txt" />
+    <Content Include="Conteudo\amor\frase\88.txt" />
+    <Content Include="Conteudo\amor\frase\89.txt" />
+    <Content Include="Conteudo\amor\frase\9.txt" />
+    <Content Include="Conteudo\amor\frase\100.txt" />
+    <Content Include="Conteudo\amor\frase\101.txt" />
+    <Content Include="Conteudo\amor\frase\102.txt" />
+    <Content Include="Conteudo\amor\frase\94.txt" />
+    <Content Include="Conteudo\amor\frase\95.txt" />
+    <Content Include="Conteudo\amor\frase\96.txt" />
+    <Content Include="Conteudo\amor\frase\97.txt" />
+    <Content Include="Conteudo\amor\frase\98.txt" />
+    <Content Include="Conteudo\amor\frase\99.txt" />
+    <Content Include="Conteudo\amor\frase\93.txt" />
+    <Content Include="Conteudo\amor\frase\92.txt" />
+    <Content Include="Conteudo\amor\frase\91.txt" />
+    <Content Include="Conteudo\amor\frase\90.txt" />
+    <Content Include="Conteudo\aniversario\autor\1.txt" />
+    <Content Include="Conteudo\aniversario\autor\10.txt" />
+    <Content Include="Conteudo\aniversario\autor\11.txt" />
+    <Content Include="Conteudo\aniversario\autor\12.txt" />
+    <Content Include="Conteudo\aniversario\autor\13.txt" />
+    <Content Include="Conteudo\aniversario\autor\14.txt" />
+    <Content Include="Conteudo\aniversario\autor\16.txt" />
+    <Content Include="Conteudo\aniversario\autor\17.txt" />
+    <Content Include="Conteudo\aniversario\autor\18.txt" />
+    <Content Include="Conteudo\aniversario\autor\19.txt" />
+    <Content Include="Conteudo\aniversario\autor\21.txt" />
+    <Content Include="Conteudo\aniversario\autor\22.txt" />
+    <Content Include="Conteudo\aniversario\autor\23.txt" />
+    <Content Include="Conteudo\aniversario\autor\20.txt" />
+    <Content Include="Conteudo\aniversario\autor\15.txt" />
+    <Content Include="Conteudo\aniversario\autor\2.txt" />
+    <Content Include="Conteudo\aniversario\autor\3.txt" />
+    <Content Include="Conteudo\aniversario\autor\4.txt" />
+    <Content Include="Conteudo\aniversario\autor\5.txt" />
+    <Content Include="Conteudo\aniversario\autor\6.txt" />
+    <Content Include="Conteudo\aniversario\autor\7.txt" />
+    <Content Include="Conteudo\aniversario\autor\8.txt" />
+    <Content Include="Conteudo\aniversario\autor\9.txt" />
+    <Content Include="Conteudo\aniversario\frase\1.txt" />
+    <Content Include="Conteudo\aniversario\frase\11.txt" />
+    <Content Include="Conteudo\aniversario\frase\13.txt" />
+    <Content Include="Conteudo\aniversario\frase\16.txt" />
+    <Content Include="Conteudo\aniversario\frase\23.txt" />
+    <Content Include="Conteudo\aniversario\frase\22.txt" />
+    <Content Include="Conteudo\aniversario\frase\21.txt" />
+    <Content Include="Conteudo\aniversario\frase\20.txt" />
+    <Content Include="Conteudo\aniversario\frase\19.txt" />
+    <Content Include="Conteudo\aniversario\frase\18.txt" />
+    <Content Include="Conteudo\aniversario\frase\17.txt" />
+    <Content Include="Conteudo\aniversario\frase\15.txt" />
+    <Content Include="Conteudo\aniversario\frase\14.txt" />
+    <Content Include="Conteudo\aniversario\frase\12.txt" />
+    <Content Include="Conteudo\aniversario\frase\10.txt" />
+    <Content Include="Conteudo\aniversario\frase\2.txt" />
+    <Content Include="Conteudo\aniversario\frase\3.txt" />
+    <Content Include="Conteudo\aniversario\frase\4.txt" />
+    <Content Include="Conteudo\aniversario\frase\5.txt" />
+    <Content Include="Conteudo\aniversario\frase\6.txt" />
+    <Content Include="Conteudo\aniversario\frase\7.txt" />
+    <Content Include="Conteudo\aniversario\frase\8.txt" />
+    <Content Include="Conteudo\aniversario\frase\9.txt" />
+    <Content Include="Conteudo\boa_noite\autor\1.txt" />
+    <Content Include="Conteudo\boa_noite\autor\10.txt" />
+    <Content Include="Conteudo\boa_noite\autor\11.txt" />
+    <Content Include="Conteudo\boa_noite\autor\12.txt" />
+    <Content Include="Conteudo\boa_noite\autor\15.txt" />
+    <Content Include="Conteudo\boa_noite\autor\16.txt" />
+    <Content Include="Conteudo\boa_noite\autor\17.txt" />
+    <Content Include="Conteudo\boa_noite\autor\18.txt" />
+    <Content Include="Conteudo\boa_noite\autor\19.txt" />
+    <Content Include="Conteudo\boa_noite\autor\20.txt" />
+    <Content Include="Conteudo\boa_noite\autor\21.txt" />
+    <Content Include="Conteudo\boa_noite\autor\14.txt" />
+    <Content Include="Conteudo\boa_noite\autor\13.txt" />
+    <Content Include="Conteudo\boa_noite\autor\2.txt" />
+    <Content Include="Conteudo\boa_noite\autor\3.txt" />
+    <Content Include="Conteudo\boa_noite\autor\4.txt" />
+    <Content Include="Conteudo\boa_noite\autor\5.txt" />
+    <Content Include="Conteudo\boa_noite\autor\6.txt" />
+    <Content Include="Conteudo\boa_noite\autor\7.txt" />
+    <Content Include="Conteudo\boa_noite\autor\8.txt" />
+    <Content Include="Conteudo\boa_noite\autor\9.txt" />
+    <Content Include="Conteudo\boa_noite\frase\1.txt" />
+    <Content Include="Conteudo\boa_noite\frase\10.txt" />
+    <Content Include="Conteudo\boa_noite\frase\11.txt" />
+    <Content Include="Conteudo\boa_noite\frase\12.txt" />
+    <Content Include="Conteudo\boa_noite\frase\14.txt" />
+    <Content Include="Conteudo\boa_noite\frase\15.txt" />
+    <Content Include="Conteudo\boa_noite\frase\21.txt" />
+    <Content Include="Conteudo\boa_noite\frase\20.txt" />
+    <Content Include="Conteudo\boa_noite\frase\19.txt" />
+    <Content Include="Conteudo\boa_noite\frase\18.txt" />
+    <Content Include="Conteudo\boa_noite\frase\17.txt" />
+    <Content Include="Conteudo\boa_noite\frase\16.txt" />
+    <Content Include="Conteudo\boa_noite\frase\13.txt" />
+    <Content Include="Conteudo\boa_noite\frase\2.txt" />
+    <Content Include="Conteudo\boa_noite\frase\3.txt" />
+    <Content Include="Conteudo\boa_noite\frase\4.txt" />
+    <Content Include="Conteudo\boa_noite\frase\5.txt" />
+    <Content Include="Conteudo\boa_noite\frase\6.txt" />
+    <Content Include="Conteudo\boa_noite\frase\7.txt" />
+    <Content Include="Conteudo\boa_noite\frase\8.txt" />
+    <Content Include="Conteudo\boa_noite\frase\9.txt" />
+    <Content Include="Conteudo\boa_tarde\autor\1.txt" />
+    <Content Include="Conteudo\boa_tarde\autor\10.txt" />
+    <Content Include="Conteudo\boa_tarde\autor\11.txt" />
+    <Content Include="Conteudo\boa_tarde\autor\12.txt" />
+    <Content Include="Conteudo\boa_tarde\autor\13.txt" />
+    <Content Include="Conteudo\boa_tarde\autor\14.txt" />
+    <Content Include="Conteudo\boa_tarde\autor\15.txt" />
+    <Content Include="Conteudo\boa_tarde\autor\16.txt" />
+    <Content Include="Conteudo\boa_tarde\autor\17.txt" />
+    <Content Include="Conteudo\boa_tarde\autor\18.txt" />
+    <Content Include="Conteudo\boa_tarde\autor\19.txt" />
+    <Content Include="Conteudo\boa_tarde\autor\2.txt" />
+    <Content Include="Conteudo\boa_tarde\autor\20.txt" />
+    <Content Include="Conteudo\boa_tarde\autor\21.txt" />
+    <Content Include="Conteudo\boa_tarde\autor\22.txt" />
+    <Content Include="Conteudo\boa_tarde\autor\23.txt" />
+    <Content Include="Conteudo\boa_tarde\autor\24.txt" />
+    <Content Include="Conteudo\boa_tarde\autor\25.txt" />
+    <Content Include="Conteudo\boa_tarde\autor\26.txt" />
+    <Content Include="Conteudo\boa_tarde\autor\27.txt" />
+    <Content Include="Conteudo\boa_tarde\autor\28.txt" />
+    <Content Include="Conteudo\boa_tarde\autor\29.txt" />
+    <Content Include="Conteudo\boa_tarde\autor\3.txt" />
+    <Content Include="Conteudo\boa_tarde\autor\30.txt" />
+    <Content Include="Conteudo\boa_tarde\autor\4.txt" />
+    <Content Include="Conteudo\boa_tarde\autor\5.txt" />
+    <Content Include="Conteudo\boa_tarde\autor\6.txt" />
+    <Content Include="Conteudo\boa_tarde\autor\7.txt" />
+    <Content Include="Conteudo\boa_tarde\autor\8.txt" />
+    <Content Include="Conteudo\boa_tarde\autor\9.txt" />
+    <Content Include="Conteudo\boa_tarde\frase\1.txt" />
+    <Content Include="Conteudo\boa_tarde\frase\10.txt" />
+    <Content Include="Conteudo\boa_tarde\frase\11.txt" />
+    <Content Include="Conteudo\boa_tarde\frase\12.txt" />
+    <Content Include="Conteudo\boa_tarde\frase\13.txt" />
+    <Content Include="Conteudo\boa_tarde\frase\14.txt" />
+    <Content Include="Conteudo\boa_tarde\frase\15.txt" />
+    <Content Include="Conteudo\boa_tarde\frase\16.txt" />
+    <Content Include="Conteudo\boa_tarde\frase\17.txt" />
+    <Content Include="Conteudo\boa_tarde\frase\18.txt" />
+    <Content Include="Conteudo\boa_tarde\frase\19.txt" />
+    <Content Include="Conteudo\boa_tarde\frase\2.txt" />
+    <Content Include="Conteudo\boa_tarde\frase\20.txt" />
+    <Content Include="Conteudo\boa_tarde\frase\21.txt" />
+    <Content Include="Conteudo\boa_tarde\frase\22.txt" />
+    <Content Include="Conteudo\boa_tarde\frase\23.txt" />
+    <Content Include="Conteudo\boa_tarde\frase\24.txt" />
+    <Content Include="Conteudo\boa_tarde\frase\25.txt" />
+    <Content Include="Conteudo\boa_tarde\frase\26.txt" />
+    <Content Include="Conteudo\boa_tarde\frase\27.txt" />
+    <Content Include="Conteudo\boa_tarde\frase\28.txt" />
+    <Content Include="Conteudo\boa_tarde\frase\29.txt" />
+    <Content Include="Conteudo\boa_tarde\frase\3.txt" />
+    <Content Include="Conteudo\boa_tarde\frase\30.txt" />
+    <Content Include="Conteudo\boa_tarde\frase\4.txt" />
+    <Content Include="Conteudo\boa_tarde\frase\5.txt" />
+    <Content Include="Conteudo\boa_tarde\frase\6.txt" />
+    <Content Include="Conteudo\boa_tarde\frase\7.txt" />
+    <Content Include="Conteudo\boa_tarde\frase\8.txt" />
+    <Content Include="Conteudo\boa_tarde\frase\9.txt" />
+    <Content Include="Conteudo\bom_dia\autor\1.txt" />
+    <Content Include="Conteudo\bom_dia\autor\10.txt" />
+    <Content Include="Conteudo\bom_dia\autor\2.txt" />
+    <Content Include="Conteudo\bom_dia\autor\3.txt" />
+    <Content Include="Conteudo\bom_dia\autor\4.txt" />
+    <Content Include="Conteudo\bom_dia\autor\5.txt" />
+    <Content Include="Conteudo\bom_dia\autor\6.txt" />
+    <Content Include="Conteudo\bom_dia\autor\7.txt" />
+    <Content Include="Conteudo\bom_dia\autor\8.txt" />
+    <Content Include="Conteudo\bom_dia\autor\9.txt" />
+    <Content Include="Conteudo\bom_dia\frase\1.txt" />
+    <Content Include="Conteudo\bom_dia\frase\10.txt" />
+    <Content Include="Conteudo\bom_dia\frase\2.txt" />
+    <Content Include="Conteudo\bom_dia\frase\3.txt" />
+    <Content Include="Conteudo\bom_dia\frase\4.txt" />
+    <Content Include="Conteudo\bom_dia\frase\5.txt" />
+    <Content Include="Conteudo\bom_dia\frase\6.txt" />
+    <Content Include="Conteudo\bom_dia\frase\7.txt" />
+    <Content Include="Conteudo\bom_dia\frase\8.txt" />
+    <Content Include="Conteudo\bom_dia\frase\9.txt" />
+    <Content Include="Conteudo\Ciumes\autor\1.txt" />
+    <Content Include="Conteudo\Ciumes\autor\2.txt" />
+    <Content Include="Conteudo\Ciumes\autor\3.txt" />
+    <Content Include="Conteudo\Ciumes\autor\4.txt" />
+    <Content Include="Conteudo\Ciumes\autor\5.txt" />
+    <Content Include="Conteudo\Ciumes\autor\6.txt" />
+    <Content Include="Conteudo\Ciumes\autor\7.txt" />
+    <Content Include="Conteudo\Ciumes\autor\9.txt" />
+    <Content Include="Conteudo\Ciumes\autor\10.txt" />
+    <Content Include="Conteudo\Ciumes\autor\11.txt" />
+    <Content Include="Conteudo\Ciumes\autor\12.txt" />
+    <Content Include="Conteudo\Ciumes\autor\13.txt" />
+    <Content Include="Conteudo\Ciumes\autor\14.txt" />
+    <Content Include="Conteudo\Ciumes\autor\15.txt" />
+    <Content Include="Conteudo\Ciumes\autor\8.txt" />
+    <Content Include="Conteudo\Ciumes\frase\1.txt" />
+    <Content Include="Conteudo\Ciumes\frase\2.txt" />
+    <Content Include="Conteudo\Ciumes\frase\3.txt" />
+    <Content Include="Conteudo\Ciumes\frase\4.txt" />
+    <Content Include="Conteudo\Ciumes\frase\5.txt" />
+    <Content Include="Conteudo\Ciumes\frase\6.txt" />
+    <Content Include="Conteudo\Ciumes\frase\7.txt" />
+    <Content Include="Conteudo\Ciumes\frase\15.txt" />
+    <Content Include="Conteudo\Ciumes\frase\14.txt" />
+    <Content Include="Conteudo\Ciumes\frase\13.txt" />
+    <Content Include="Conteudo\Ciumes\frase\12.txt" />
+    <Content Include="Conteudo\Ciumes\frase\11.txt" />
+    <Content Include="Conteudo\Ciumes\frase\10.txt" />
+    <Content Include="Conteudo\Ciumes\frase\9.txt" />
+    <Content Include="Conteudo\Ciumes\frase\8.txt" />
+    <Content Include="Conteudo\desculpas\autor\1.txt" />
+    <Content Include="Conteudo\desculpas\autor\10.txt" />
+    <Content Include="Conteudo\desculpas\autor\11.txt" />
+    <Content Include="Conteudo\desculpas\autor\12.txt" />
+    <Content Include="Conteudo\desculpas\autor\13.txt" />
+    <Content Include="Conteudo\desculpas\autor\14.txt" />
+    <Content Include="Conteudo\desculpas\autor\15.txt" />
+    <Content Include="Conteudo\desculpas\autor\2.txt" />
+    <Content Include="Conteudo\desculpas\autor\3.txt" />
+    <Content Include="Conteudo\desculpas\autor\4.txt" />
+    <Content Include="Conteudo\desculpas\autor\5.txt" />
+    <Content Include="Conteudo\desculpas\autor\6.txt" />
+    <Content Include="Conteudo\desculpas\autor\7.txt" />
+    <Content Include="Conteudo\desculpas\autor\8.txt" />
+    <Content Include="Conteudo\desculpas\autor\9.txt" />
+    <Content Include="Conteudo\desculpas\frase\1.txt" />
+    <Content Include="Conteudo\desculpas\frase\10.txt" />
+    <Content Include="Conteudo\desculpas\frase\11.txt" />
+    <Content Include="Conteudo\desculpas\frase\15.txt" />
+    <Content Include="Conteudo\desculpas\frase\14.txt" />
+    <Content Include="Conteudo\desculpas\frase\13.txt" />
+    <Content Include="Conteudo\desculpas\frase\12.txt" />
+    <Content Include="Conteudo\desculpas\frase\2.txt" />
+    <Content Include="Conteudo\desculpas\frase\3.txt" />
+    <Content Include="Conteudo\desculpas\frase\4.txt" />
+    <Content Include="Conteudo\desculpas\frase\5.txt" />
+    <Content Include="Conteudo\desculpas\frase\6.txt" />
+    <Content Include="Conteudo\desculpas\frase\7.txt" />
+    <Content Include="Conteudo\desculpas\frase\8.txt" />
+    <Content Include="Conteudo\desculpas\frase\9.txt" />
+    <Content Include="Conteudo\Deus\autor\1.txt" />
+    <Content Include="Conteudo\Deus\autor\10.txt" />
+    <Content Include="Conteudo\Deus\autor\23.txt" />
+    <Content Include="Conteudo\Deus\autor\22.txt" />
+    <Content Include="Conteudo\Deus\autor\21.txt" />
+    <Content Include="Conteudo\Deus\autor\20.txt" />
+    <Content Include="Conteudo\Deus\autor\6.txt" />
+    <Content Include="Conteudo\Deus\autor\19.txt" />
+    <Content Include="Conteudo\Deus\autor\17.txt" />
+    <Content Include="Conteudo\Deus\autor\18.txt" />
+    <Content Include="Conteudo\Deus\autor\16.txt" />
+    <Content Include="Conteudo\Deus\autor\13.txt" />
+    <Content Include="Conteudo\Deus\autor\14.txt" />
+    <Content Include="Conteudo\Deus\autor\12.txt" />
+    <Content Include="Conteudo\Deus\autor\11.txt" />
+    <Content Include="Conteudo\Deus\autor\2.txt" />
+    <Content Include="Conteudo\Deus\autor\3.txt" />
+    <Content Include="Conteudo\Deus\autor\4.txt" />
+    <Content Include="Conteudo\Deus\autor\5.txt" />
+    <Content Include="Conteudo\Deus\autor\7.txt" />
+    <Content Include="Conteudo\Deus\autor\8.txt" />
+    <Content Include="Conteudo\Deus\autor\9.txt" />
+    <Content Include="Conteudo\Deus\frase\1.txt" />
+    <Content Include="Conteudo\Deus\frase\10.txt" />
+    <Content Include="Conteudo\Deus\autor\15.txt" />
+    <Content Include="Conteudo\Deus\frase\23.txt" />
+    <Content Include="Conteudo\Deus\frase\22.txt" />
+    <Content Include="Conteudo\Deus\frase\21.txt" />
+    <Content Include="Conteudo\Deus\frase\19.txt" />
+    <Content Include="Conteudo\Deus\frase\18.txt" />
+    <Content Include="Conteudo\Deus\frase\20.txt" />
+    <Content Include="Conteudo\Deus\frase\17.txt" />
+    <Content Include="Conteudo\Deus\frase\16.txt" />
+    <Content Include="Conteudo\Deus\frase\15.txt" />
+    <Content Include="Conteudo\Deus\frase\14.txt" />
+    <Content Include="Conteudo\Deus\frase\13.txt" />
+    <Content Include="Conteudo\Deus\frase\12.txt" />
+    <Content Include="Conteudo\Deus\frase\11.txt" />
+    <Content Include="Conteudo\Deus\frase\2.txt" />
+    <Content Include="Conteudo\Deus\frase\3.txt" />
+    <Content Include="Conteudo\Deus\frase\4.txt" />
+    <Content Include="Conteudo\Deus\frase\5.txt" />
+    <Content Include="Conteudo\Deus\frase\6.txt" />
+    <Content Include="Conteudo\Deus\frase\7.txt" />
+    <Content Include="Conteudo\Deus\frase\8.txt" />
+    <Content Include="Conteudo\Deus\frase\9.txt" />
+    <Content Include="Conteudo\dias_maes\autor\1.txt" />
+    <Content Include="Conteudo\dias_maes\autor\10.txt" />
+    <Content Include="Conteudo\dias_maes\autor\11.txt" />
+    <Content Include="Conteudo\dias_maes\autor\12.txt" />
+    <Content Include="Conteudo\dias_maes\autor\2.txt" />
+    <Content Include="Conteudo\dias_maes\autor\3.txt" />
+    <Content Include="Conteudo\dias_maes\autor\4.txt" />
+    <Content Include="Conteudo\dias_maes\autor\5.txt" />
+    <Content Include="Conteudo\dias_maes\autor\6.txt" />
+    <Content Include="Conteudo\dias_maes\autor\7.txt" />
+    <Content Include="Conteudo\dias_maes\autor\8.txt" />
+    <Content Include="Conteudo\dias_maes\autor\9.txt" />
+    <Content Include="Conteudo\dias_maes\frase\1.txt" />
+    <Content Include="Conteudo\dias_maes\frase\10.txt" />
+    <Content Include="Conteudo\dias_maes\frase\11.txt" />
+    <Content Include="Conteudo\dias_maes\frase\12.txt" />
+    <Content Include="Conteudo\dias_maes\frase\2.txt" />
+    <Content Include="Conteudo\dias_maes\frase\3.txt" />
+    <Content Include="Conteudo\dias_maes\frase\4.txt" />
+    <Content Include="Conteudo\dias_maes\frase\5.txt" />
+    <Content Include="Conteudo\dias_maes\frase\6.txt" />
+    <Content Include="Conteudo\dias_maes\frase\7.txt" />
+    <Content Include="Conteudo\dias_maes\frase\8.txt" />
+    <Content Include="Conteudo\dias_maes\frase\9.txt" />
+    <Content Include="Conteudo\dias_pais\autor\1.txt" />
+    <Content Include="Conteudo\dias_pais\autor\10.txt" />
+    <Content Include="Conteudo\dias_pais\autor\11.txt" />
+    <Content Include="Conteudo\dias_pais\autor\12.txt" />
+    <Content Include="Conteudo\dias_pais\autor\2.txt" />
+    <Content Include="Conteudo\dias_pais\autor\3.txt" />
+    <Content Include="Conteudo\dias_pais\autor\4.txt" />
+    <Content Include="Conteudo\dias_pais\autor\5.txt" />
+    <Content Include="Conteudo\dias_pais\autor\6.txt" />
+    <Content Include="Conteudo\dias_pais\autor\7.txt" />
+    <Content Include="Conteudo\dias_pais\autor\8.txt" />
+    <Content Include="Conteudo\dias_pais\autor\9.txt" />
+    <Content Include="Conteudo\dias_pais\frase\1.txt" />
+    <Content Include="Conteudo\dias_pais\frase\10.txt" />
+    <Content Include="Conteudo\dias_pais\frase\11.txt" />
+    <Content Include="Conteudo\dias_pais\frase\12.txt" />
+    <Content Include="Conteudo\dias_pais\frase\2.txt" />
+    <Content Include="Conteudo\dias_pais\frase\3.txt" />
+    <Content Include="Conteudo\dias_pais\frase\4.txt" />
+    <Content Include="Conteudo\dias_pais\frase\5.txt" />
+    <Content Include="Conteudo\dias_pais\frase\6.txt" />
+    <Content Include="Conteudo\dias_pais\frase\7.txt" />
+    <Content Include="Conteudo\dias_pais\frase\8.txt" />
+    <Content Include="Conteudo\dias_pais\frase\9.txt" />
+    <Content Include="Conteudo\Engracadas\autor\1.txt" />
+    <Content Include="Conteudo\Engracadas\autor\10.txt" />
+    <Content Include="Conteudo\Engracadas\autor\2.txt" />
+    <Content Include="Conteudo\Engracadas\autor\3.txt" />
+    <Content Include="Conteudo\Engracadas\autor\4.txt" />
+    <Content Include="Conteudo\Engracadas\autor\5.txt" />
+    <Content Include="Conteudo\Engracadas\autor\6.txt" />
+    <Content Include="Conteudo\Engracadas\autor\7.txt" />
+    <Content Include="Conteudo\Engracadas\autor\8.txt" />
+    <Content Include="Conteudo\Engracadas\autor\9.txt" />
+    <Content Include="Conteudo\Engracadas\frase\10.txt" />
+    <Content Include="Conteudo\Engracadas\frase\9.txt" />
+    <Content Include="Conteudo\Engracadas\frase\8.txt" />
+    <Content Include="Conteudo\Engracadas\frase\7.txt" />
+    <Content Include="Conteudo\Engracadas\frase\6.txt" />
+    <Content Include="Conteudo\Engracadas\frase\5.txt" />
+    <Content Include="Conteudo\Engracadas\frase\4.txt" />
+    <Content Include="Conteudo\Engracadas\frase\3.txt" />
+    <Content Include="Conteudo\Engracadas\frase\2.txt" />
+    <Content Include="Conteudo\Engracadas\frase\1.txt" />
+    <Content Include="Conteudo\indiretas\autor\15.txt" />
+    <Content Include="Conteudo\indiretas\autor\16.txt" />
+    <Content Include="Conteudo\indiretas\autor\17.txt" />
+    <Content Include="Conteudo\indiretas\autor\18.txt" />
+    <Content Include="Conteudo\indiretas\autor\19.txt" />
+    <Content Include="Conteudo\indiretas\autor\20.txt" />
+    <Content Include="Conteudo\indiretas\autor\14.txt" />
+    <Content Include="Conteudo\indiretas\autor\13.txt" />
+    <Content Include="Conteudo\indiretas\autor\11.txt" />
+    <Content Include="Conteudo\indiretas\autor\12.txt" />
+    <Content Include="Conteudo\indiretas\autor\10.txt" />
+    <Content Include="Conteudo\indiretas\autor\21.txt" />
+    <Content Include="Conteudo\indiretas\autor\22.txt" />
+    <Content Include="Conteudo\indiretas\autor\23.txt" />
+    <Content Include="Conteudo\indiretas\autor\24.txt" />
+    <Content Include="Conteudo\indiretas\autor\25.txt" />
+    <Content Include="Conteudo\indiretas\autor\9.txt" />
+    <Content Include="Conteudo\indiretas\autor\8.txt" />
+    <Content Include="Conteudo\indiretas\autor\7.txt" />
+    <Content Include="Conteudo\indiretas\autor\6.txt" />
+    <Content Include="Conteudo\indiretas\autor\5.txt" />
+    <Content Include="Conteudo\indiretas\autor\4.txt" />
+    <Content Include="Conteudo\indiretas\autor\3.txt" />
+    <Content Include="Conteudo\indiretas\autor\2.txt" />
+    <Content Include="Conteudo\indiretas\autor\1.txt" />
+    <Content Include="Conteudo\indiretas\frase\11.txt" />
+    <Content Include="Conteudo\indiretas\frase\13.txt" />
+    <Content Include="Conteudo\indiretas\frase\14.txt" />
+    <Content Include="Conteudo\indiretas\frase\18.txt" />
+    <Content Include="Conteudo\indiretas\frase\19.txt" />
+    <Content Include="Conteudo\indiretas\frase\25.txt" />
+    <Content Include="Conteudo\indiretas\frase\24.txt" />
+    <Content Include="Conteudo\indiretas\frase\23.txt" />
+    <Content Include="Conteudo\indiretas\frase\22.txt" />
+    <Content Include="Conteudo\indiretas\frase\21.txt" />
+    <Content Include="Conteudo\indiretas\frase\20.txt" />
+    <Content Include="Conteudo\indiretas\frase\17.txt" />
+    <Content Include="Conteudo\indiretas\frase\16.txt" />
+    <Content Include="Conteudo\indiretas\frase\15.txt" />
+    <Content Include="Conteudo\indiretas\frase\2.txt" />
+    <Content Include="Conteudo\indiretas\frase\3.txt" />
+    <Content Include="Conteudo\indiretas\frase\4.txt" />
+    <Content Include="Conteudo\indiretas\frase\5.txt" />
+    <Content Include="Conteudo\indiretas\frase\6.txt" />
+    <Content Include="Conteudo\indiretas\frase\7.txt" />
+    <Content Include="Conteudo\indiretas\frase\8.txt" />
+    <Content Include="Conteudo\indiretas\frase\9.txt" />
+    <Content Include="Conteudo\indiretas\frase\10.txt" />
+    <Content Include="Conteudo\indiretas\frase\12.txt" />
+    <Content Include="Conteudo\indiretas\frase\1.txt" />
+    <Content Include="Conteudo\motivacao\autor\1.txt" />
+    <Content Include="Conteudo\motivacao\autor\10.txt" />
+    <Content Include="Conteudo\motivacao\autor\11.txt" />
+    <Content Include="Conteudo\motivacao\autor\13.txt" />
+    <Content Include="Conteudo\motivacao\autor\14.txt" />
+    <Content Include="Conteudo\motivacao\autor\19.txt" />
+    <Content Include="Conteudo\motivacao\autor\2.txt" />
+    <Content Include="Conteudo\motivacao\autor\25.txt" />
+    <Content Include="Conteudo\motivacao\autor\24.txt" />
+    <Content Include="Conteudo\motivacao\autor\23.txt" />
+    <Content Include="Conteudo\motivacao\autor\22.txt" />
+    <Content Include="Conteudo\motivacao\autor\21.txt" />
+    <Content Include="Conteudo\motivacao\autor\20.txt" />
+    <Content Include="Conteudo\motivacao\autor\17.txt" />
+    <Content Include="Conteudo\motivacao\autor\18.txt" />
+    <Content Include="Conteudo\motivacao\autor\26.txt" />
+    <Content Include="Conteudo\motivacao\autor\9.txt" />
+    <Content Include="Conteudo\motivacao\autor\15.txt" />
+    <Content Include="Conteudo\motivacao\autor\16.txt" />
+    <Content Include="Conteudo\motivacao\autor\6.txt" />
+    <Content Include="Conteudo\motivacao\autor\12.txt" />
+    <Content Include="Conteudo\motivacao\autor\3.txt" />
+    <Content Include="Conteudo\motivacao\autor\4.txt" />
+    <Content Include="Conteudo\motivacao\autor\5.txt" />
+    <Content Include="Conteudo\motivacao\autor\7.txt" />
+    <Content Include="Conteudo\motivacao\autor\8.txt" />
+    <Content Include="Conteudo\motivacao\frase\16.txt" />
+    <Content Include="Conteudo\motivacao\frase\17.txt" />
+    <Content Include="Conteudo\motivacao\frase\18.txt" />
+    <Content Include="Conteudo\motivacao\frase\19.txt" />
+    <Content Include="Conteudo\motivacao\frase\26.txt" />
+    <Content Include="Conteudo\motivacao\frase\25.txt" />
+    <Content Include="Conteudo\motivacao\frase\24.txt" />
+    <Content Include="Conteudo\motivacao\frase\23.txt" />
+    <Content Include="Conteudo\motivacao\frase\22.txt" />
+    <Content Include="Conteudo\motivacao\frase\21.txt" />
+    <Content Include="Conteudo\motivacao\frase\6.txt" />
+    <Content Include="Conteudo\motivacao\frase\11.txt" />
+    <Content Include="Conteudo\motivacao\frase\12.txt" />
+    <Content Include="Conteudo\motivacao\frase\13.txt" />
+    <Content Include="Conteudo\motivacao\frase\14.txt" />
+    <Content Include="Conteudo\motivacao\frase\15.txt" />
+    <Content Include="Conteudo\motivacao\frase\20.txt" />
+    <Content Include="Conteudo\motivacao\frase\10.txt" />
+    <Content Include="Conteudo\motivacao\frase\8.txt" />
+    <Content Include="Conteudo\motivacao\frase\9.txt" />
+    <Content Include="Conteudo\motivacao\frase\7.txt" />
+    <Content Include="Conteudo\motivacao\frase\5.txt" />
+    <Content Include="Conteudo\motivacao\frase\4.txt" />
+    <Content Include="Conteudo\motivacao\frase\3.txt" />
+    <Content Include="Conteudo\motivacao\frase\2.txt" />
+    <Content Include="Conteudo\motivacao\frase\1.txt" />
+    <Content Include="Conteudo\Musicas\autor\14.txt" />
+    <Content Include="Conteudo\Musicas\autor\15.txt" />
+    <Content Include="Conteudo\Musicas\autor\13.txt" />
+    <Content Include="Conteudo\Musicas\autor\12.txt" />
+    <Content Include="Conteudo\Musicas\autor\11.txt" />
+    <Content Include="Conteudo\Musicas\autor\16.txt" />
+    <Content Include="Conteudo\Musicas\autor\17.txt" />
+    <Content Include="Conteudo\Musicas\autor\18.txt" />
+    <Content Include="Conteudo\Musicas\autor\19.txt" />
+    <Content Include="Conteudo\Musicas\autor\20.txt" />
+    <Content Include="Conteudo\Musicas\autor\4.txt" />
+    <Content Include="Conteudo\Musicas\autor\5.txt" />
+    <Content Include="Conteudo\Musicas\autor\6.txt" />
+    <Content Include="Conteudo\Musicas\autor\10.txt" />
+    <Content Include="Conteudo\Musicas\autor\9.txt" />
+    <Content Include="Conteudo\Musicas\autor\8.txt" />
+    <Content Include="Conteudo\Musicas\autor\7.txt" />
+    <Content Include="Conteudo\Musicas\autor\3.txt" />
+    <Content Include="Conteudo\Musicas\autor\2.txt" />
+    <Content Include="Conteudo\Musicas\autor\1.txt" />
+    <Content Include="Conteudo\Musicas\frase\10.txt" />
+    <Content Include="Conteudo\Musicas\frase\11.txt" />
+    <Content Include="Conteudo\Musicas\frase\14.txt" />
+    <Content Include="Conteudo\Musicas\frase\19.txt" />
+    <Content Include="Conteudo\Musicas\frase\18.txt" />
+    <Content Include="Conteudo\Musicas\frase\20.txt" />
+    <Content Include="Conteudo\Musicas\frase\17.txt" />
+    <Content Include="Conteudo\Musicas\frase\16.txt" />
+    <Content Include="Conteudo\Musicas\frase\15.txt" />
+    <Content Include="Conteudo\Musicas\frase\13.txt" />
+    <Content Include="Conteudo\Musicas\frase\12.txt" />
+    <Content Include="Conteudo\Musicas\frase\2.txt" />
+    <Content Include="Conteudo\Musicas\frase\1.txt" />
+    <Content Include="Conteudo\Musicas\frase\3.txt" />
+    <Content Include="Conteudo\Musicas\frase\4.txt" />
+    <Content Include="Conteudo\Musicas\frase\5.txt" />
+    <Content Include="Conteudo\Musicas\frase\6.txt" />
+    <Content Include="Conteudo\Musicas\frase\7.txt" />
+    <Content Include="Conteudo\Musicas\frase\8.txt" />
+    <Content Include="Conteudo\Musicas\frase\9.txt" />
+    <Content Include="Conteudo\Natal\autor\9.txt" />
+    <Content Include="Conteudo\Natal\autor\10.txt" />
+    <Content Include="Conteudo\Natal\autor\8.txt" />
+    <Content Include="Conteudo\Natal\autor\7.txt" />
+    <Content Include="Conteudo\Natal\autor\6.txt" />
+    <Content Include="Conteudo\Natal\autor\5.txt" />
+    <Content Include="Conteudo\Natal\autor\4.txt" />
+    <Content Include="Conteudo\Natal\autor\3.txt" />
+    <Content Include="Conteudo\Natal\autor\2.txt" />
+    <Content Include="Conteudo\Natal\autor\1.txt" />
+    <Content Include="Conteudo\Natal\frase\1.txt" />
+    <Content Include="Conteudo\Natal\frase\61.txt" />
+    <Content Include="Conteudo\Natal\frase\15.txt" />
+    <Content Include="Conteudo\Natal\frase\14.txt" />
+    <Content Include="Conteudo\Natal\frase\13.txt" />
+    <Content Include="Conteudo\Natal\frase\12.txt" />
+    <Content Include="Conteudo\Natal\frase\11.txt" />
+    <Content Include="Conteudo\Natal\frase\10.txt" />
+    <Content Include="Conteudo\Natal\frase\2.txt" />
+    <Content Include="Conteudo\Natal\frase\3.txt" />
+    <Content Include="Conteudo\Natal\frase\4.txt" />
+    <Content Include="Conteudo\Natal\frase\5.txt" />
+    <Content Include="Conteudo\Natal\frase\6.txt" />
+    <Content Include="Conteudo\Natal\frase\7.txt" />
+    <Content Include="Conteudo\Natal\frase\8.txt" />
+    <Content Include="Conteudo\Natal\frase\9.txt" />
+    <Content Include="Conteudo\Saudades\autor\1.txt" />
+    <Content Include="Conteudo\Saudades\autor\10.txt" />
+    <Content Include="Conteudo\Saudades\autor\11.txt" />
+    <Content Include="Conteudo\Saudades\autor\12.txt" />
+    <Content Include="Conteudo\Saudades\autor\13.txt" />
+    <Content Include="Conteudo\Saudades\autor\14.txt" />
+    <Content Include="Conteudo\Saudades\autor\15.txt" />
+    <Content Include="Conteudo\Saudades\autor\16.txt" />
+    <Content Include="Conteudo\Saudades\autor\17.txt" />
+    <Content Include="Conteudo\Saudades\autor\18.txt" />
+    <Content Include="Conteudo\Saudades\autor\19.txt" />
+    <Content Include="Conteudo\Saudades\autor\2.txt" />
+    <Content Include="Conteudo\Saudades\autor\20.txt" />
+    <Content Include="Conteudo\Saudades\autor\21.txt" />
+    <Content Include="Conteudo\Saudades\autor\22.txt" />
+    <Content Include="Conteudo\Saudades\autor\23.txt" />
+    <Content Include="Conteudo\Saudades\autor\24.txt" />
+    <Content Include="Conteudo\Saudades\autor\25.txt" />
+    <Content Include="Conteudo\Saudades\autor\26.txt" />
+    <Content Include="Conteudo\Saudades\autor\27.txt" />
+    <Content Include="Conteudo\Saudades\autor\28.txt" />
+    <Content Include="Conteudo\Saudades\autor\29.txt" />
+    <Content Include="Conteudo\Saudades\autor\3.txt" />
+    <Content Include="Conteudo\Saudades\autor\30.txt" />
+    <Content Include="Conteudo\Saudades\autor\31.txt" />
+    <Content Include="Conteudo\Saudades\autor\32.txt" />
+    <Content Include="Conteudo\Saudades\autor\33.txt" />
+    <Content Include="Conteudo\Saudades\autor\34.txt" />
+    <Content Include="Conteudo\Saudades\autor\35.txt" />
+    <Content Include="Conteudo\Saudades\autor\36.txt" />
+    <Content Include="Conteudo\Saudades\autor\37.txt" />
+    <Content Include="Conteudo\Saudades\autor\38.txt" />
+    <Content Include="Conteudo\Saudades\autor\39.txt" />
+    <Content Include="Conteudo\Saudades\autor\4.txt" />
+    <Content Include="Conteudo\Saudades\autor\40.txt" />
+    <Content Include="Conteudo\Saudades\autor\41.txt" />
+    <Content Include="Conteudo\Saudades\autor\42.txt" />
+    <Content Include="Conteudo\Saudades\autor\43.txt" />
+    <Content Include="Conteudo\Saudades\autor\44.txt" />
+    <Content Include="Conteudo\Saudades\autor\45.txt" />
+    <Content Include="Conteudo\Saudades\autor\46.txt" />
+    <Content Include="Conteudo\Saudades\autor\47.txt" />
+    <Content Include="Conteudo\Saudades\autor\48.txt" />
+    <Content Include="Conteudo\Saudades\autor\49.txt" />
+    <Content Include="Conteudo\Saudades\autor\5.txt" />
+    <Content Include="Conteudo\Saudades\autor\50.txt" />
+    <Content Include="Conteudo\Saudades\autor\6.txt" />
+    <Content Include="Conteudo\Saudades\autor\7.txt" />
+    <Content Include="Conteudo\Saudades\autor\8.txt" />
+    <Content Include="Conteudo\Saudades\autor\9.txt" />
+    <Content Include="Conteudo\Saudades\frase\1.txt" />
+    <Content Include="Conteudo\Saudades\frase\10.txt" />
+    <Content Include="Conteudo\Saudades\frase\11.txt" />
+    <Content Include="Conteudo\Saudades\frase\12.txt" />
+    <Content Include="Conteudo\Saudades\frase\13.txt" />
+    <Content Include="Conteudo\Saudades\frase\14.txt" />
+    <Content Include="Conteudo\Saudades\frase\15.txt" />
+    <Content Include="Conteudo\Saudades\frase\16.txt" />
+    <Content Include="Conteudo\Saudades\frase\17.txt" />
+    <Content Include="Conteudo\Saudades\frase\18.txt" />
+    <Content Include="Conteudo\Saudades\frase\19.txt" />
+    <Content Include="Conteudo\Saudades\frase\2.txt" />
+    <Content Include="Conteudo\Saudades\frase\20.txt" />
+    <Content Include="Conteudo\Saudades\frase\21.txt" />
+    <Content Include="Conteudo\Saudades\frase\22.txt" />
+    <Content Include="Conteudo\Saudades\frase\23.txt" />
+    <Content Include="Conteudo\Saudades\frase\24.txt" />
+    <Content Include="Conteudo\Saudades\frase\25.txt" />
+    <Content Include="Conteudo\Saudades\frase\26.txt" />
+    <Content Include="Conteudo\Saudades\frase\27.txt" />
+    <Content Include="Conteudo\Saudades\frase\28.txt" />
+    <Content Include="Conteudo\Saudades\frase\29.txt" />
+    <Content Include="Conteudo\Saudades\frase\3.txt" />
+    <Content Include="Conteudo\Saudades\frase\30.txt" />
+    <Content Include="Conteudo\Saudades\frase\31.txt" />
+    <Content Include="Conteudo\Saudades\frase\32.txt" />
+    <Content Include="Conteudo\Saudades\frase\33.txt" />
+    <Content Include="Conteudo\Saudades\frase\34.txt" />
+    <Content Include="Conteudo\Saudades\frase\35.txt" />
+    <Content Include="Conteudo\Saudades\frase\36.txt" />
+    <Content Include="Conteudo\Saudades\frase\37.txt" />
+    <Content Include="Conteudo\Saudades\frase\38.txt" />
+    <Content Include="Conteudo\Saudades\frase\39.txt" />
+    <Content Include="Conteudo\Saudades\frase\4.txt" />
+    <Content Include="Conteudo\Saudades\frase\40.txt" />
+    <Content Include="Conteudo\Saudades\frase\41.txt" />
+    <Content Include="Conteudo\Saudades\frase\42.txt" />
+    <Content Include="Conteudo\Saudades\frase\43.txt" />
+    <Content Include="Conteudo\Saudades\frase\44.txt" />
+    <Content Include="Conteudo\Saudades\frase\45.txt" />
+    <Content Include="Conteudo\Saudades\frase\46.txt" />
+    <Content Include="Conteudo\Saudades\frase\47.txt" />
+    <Content Include="Conteudo\Saudades\frase\48.txt" />
+    <Content Include="Conteudo\Saudades\frase\49.txt" />
+    <Content Include="Conteudo\Saudades\frase\5.txt" />
+    <Content Include="Conteudo\Saudades\frase\50.txt" />
+    <Content Include="Conteudo\Saudades\frase\6.txt" />
+    <Content Include="Conteudo\Saudades\frase\7.txt" />
+    <Content Include="Conteudo\Saudades\frase\8.txt" />
+    <Content Include="Conteudo\Saudades\frase\9.txt" />
+    <Content Include="Conteudo\Tristeza\autor\1.txt" />
+    <Content Include="Conteudo\Tristeza\autor\10.txt" />
+    <Content Include="Conteudo\Tristeza\autor\11.txt" />
+    <Content Include="Conteudo\Tristeza\autor\12.txt" />
+    <Content Include="Conteudo\Tristeza\autor\13.txt" />
+    <Content Include="Conteudo\Tristeza\autor\14.txt" />
+    <Content Include="Conteudo\Tristeza\autor\15.txt" />
+    <Content Include="Conteudo\Tristeza\autor\16.txt" />
+    <Content Include="Conteudo\Tristeza\autor\17.txt" />
+    <Content Include="Conteudo\Tristeza\autor\18.txt" />
+    <Content Include="Conteudo\Tristeza\autor\19.txt" />
+    <Content Include="Conteudo\Tristeza\autor\2.txt" />
+    <Content Include="Conteudo\Tristeza\autor\20.txt" />
+    <Content Include="Conteudo\Tristeza\autor\21.txt" />
+    <Content Include="Conteudo\Tristeza\autor\22.txt" />
+    <Content Include="Conteudo\Tristeza\autor\23.txt" />
+    <Content Include="Conteudo\Tristeza\autor\24.txt" />
+    <Content Include="Conteudo\Tristeza\autor\25.txt" />
+    <Content Include="Conteudo\Tristeza\autor\26.txt" />
+    <Content Include="Conteudo\Tristeza\autor\27.txt" />
+    <Content Include="Conteudo\Tristeza\autor\28.txt" />
+    <Content Include="Conteudo\Tristeza\autor\29.txt" />
+    <Content Include="Conteudo\Tristeza\autor\3.txt" />
+    <Content Include="Conteudo\Tristeza\autor\30.txt" />
+    <Content Include="Conteudo\Tristeza\autor\31.txt" />
+    <Content Include="Conteudo\Tristeza\autor\32.txt" />
+    <Content Include="Conteudo\Tristeza\autor\33.txt" />
+    <Content Include="Conteudo\Tristeza\autor\34.txt" />
+    <Content Include="Conteudo\Tristeza\autor\35.txt" />
+    <Content Include="Conteudo\Tristeza\autor\36.txt" />
+    <Content Include="Conteudo\Tristeza\autor\37.txt" />
+    <Content Include="Conteudo\Tristeza\autor\38.txt" />
+    <Content Include="Conteudo\Tristeza\autor\39.txt" />
+    <Content Include="Conteudo\Tristeza\autor\4.txt" />
+    <Content Include="Conteudo\Tristeza\autor\40.txt" />
+    <Content Include="Conteudo\Tristeza\autor\41.txt" />
+    <Content Include="Conteudo\Tristeza\autor\42.txt" />
+    <Content Include="Conteudo\Tristeza\autor\43.txt" />
+    <Content Include="Conteudo\Tristeza\autor\44.txt" />
+    <Content Include="Conteudo\Tristeza\autor\45.txt" />
+    <Content Include="Conteudo\Tristeza\autor\46.txt" />
+    <Content Include="Conteudo\Tristeza\autor\47.txt" />
+    <Content Include="Conteudo\Tristeza\autor\48.txt" />
+    <Content Include="Conteudo\Tristeza\autor\49.txt" />
+    <Content Include="Conteudo\Tristeza\autor\5.txt" />
+    <Content Include="Conteudo\Tristeza\autor\51.txt" />
+    <Content Include="Conteudo\Tristeza\autor\50.txt" />
+    <Content Include="Conteudo\Tristeza\autor\6.txt" />
+    <Content Include="Conteudo\Tristeza\autor\7.txt" />
+    <Content Include="Conteudo\Tristeza\autor\8.txt" />
+    <Content Include="Conteudo\Tristeza\autor\9.txt" />
+    <Content Include="Conteudo\Tristeza\frase\1.txt" />
+    <Content Include="Conteudo\Tristeza\frase\10.txt" />
+    <Content Include="Conteudo\Tristeza\frase\11.txt" />
+    <Content Include="Conteudo\Tristeza\frase\12.txt" />
+    <Content Include="Conteudo\Tristeza\frase\13.txt" />
+    <Content Include="Conteudo\Tristeza\frase\14.txt" />
+    <Content Include="Conteudo\Tristeza\frase\15.txt" />
+    <Content Include="Conteudo\Tristeza\frase\16.txt" />
+    <Content Include="Conteudo\Tristeza\frase\17.txt" />
+    <Content Include="Conteudo\Tristeza\frase\18.txt" />
+    <Content Include="Conteudo\Tristeza\frase\19.txt" />
+    <Content Include="Conteudo\Tristeza\frase\2.txt" />
+    <Content Include="Conteudo\Tristeza\frase\20.txt" />
+    <Content Include="Conteudo\Tristeza\frase\21.txt" />
+    <Content Include="Conteudo\Tristeza\frase\22.txt" />
+    <Content Include="Conteudo\Tristeza\frase\23.txt" />
+    <Content Include="Conteudo\Tristeza\frase\24.txt" />
+    <Content Include="Conteudo\Tristeza\frase\25.txt" />
+    <Content Include="Conteudo\Tristeza\frase\26.txt" />
+    <Content Include="Conteudo\Tristeza\frase\27.txt" />
+    <Content Include="Conteudo\Tristeza\frase\28.txt" />
+    <Content Include="Conteudo\Tristeza\frase\29.txt" />
+    <Content Include="Conteudo\Tristeza\frase\3.txt" />
+    <Content Include="Conteudo\Tristeza\frase\30.txt" />
+    <Content Include="Conteudo\Tristeza\frase\31.txt" />
+    <Content Include="Conteudo\Tristeza\frase\32.txt" />
+    <Content Include="Conteudo\Tristeza\frase\33.txt" />
+    <Content Include="Conteudo\Tristeza\frase\34.txt" />
+    <Content Include="Conteudo\Tristeza\frase\35.txt" />
+    <Content Include="Conteudo\Tristeza\frase\36.txt" />
+    <Content Include="Conteudo\Tristeza\frase\37.txt" />
+    <Content Include="Conteudo\Tristeza\frase\38.txt" />
+    <Content Include="Conteudo\Tristeza\frase\39.txt" />
+    <Content Include="Conteudo\Tristeza\frase\4.txt" />
+    <Content Include="Conteudo\Tristeza\frase\40.txt" />
+    <Content Include="Conteudo\Tristeza\frase\41.txt" />
+    <Content Include="Conteudo\Tristeza\frase\42.txt" />
+    <Content Include="Conteudo\Tristeza\frase\43.txt" />
+    <Content Include="Conteudo\Tristeza\frase\44.txt" />
+    <Content Include="Conteudo\Tristeza\frase\45.txt" />
+    <Content Include="Conteudo\Tristeza\frase\46.txt" />
+    <Content Include="Conteudo\Tristeza\frase\47.txt" />
+    <Content Include="Conteudo\Tristeza\frase\48.txt" />
+    <Content Include="Conteudo\Tristeza\frase\49.txt" />
+    <Content Include="Conteudo\Tristeza\frase\5.txt" />
+    <Content Include="Conteudo\Tristeza\frase\51.txt" />
+    <Content Include="Conteudo\Tristeza\frase\50.txt" />
+    <Content Include="Conteudo\Tristeza\frase\6.txt" />
+    <Content Include="Conteudo\Tristeza\frase\7.txt" />
+    <Content Include="Conteudo\Tristeza\frase\8.txt" />
+    <Content Include="Conteudo\Tristeza\frase\9.txt" />
+    <Content Include="LOJA\configuration17.png" />
+    <Content Include="LOJA\Elipsefrases.png" />
+    <Content Include="LOJA\heart13 %281%29.png" />
+    <Content Include="LOJA\heart13.png" />
+    <Content Include="LOJA\piano02.jpg" />
+    <Content Include="LOJA\piano.jpg" />
+    <Content Include="LOJA\icone.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\AppResources.pt-BR.resx" />
+    <EmbeddedResource Include="Resources\AppResources.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>AppResources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="AdDuplex.WindowsPhone, Version=9.0.0.8, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\AdDuplexWP8.9.0.0.8\lib\wp8\AdDuplex.WindowsPhone.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.AdMediator.Core">
+      <HintPath>C:\Program Files (x86)\Microsoft SDKs\Windows Phone\v8.0\ExtensionSDKs\Microsoft.AdMediator8\1.0\References\CommonConfiguration\neutral\Microsoft.AdMediator.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AdMediator.WindowsPhone8">
+      <HintPath>C:\Program Files (x86)\Microsoft SDKs\Windows Phone\v8.0\ExtensionSDKs\Microsoft.AdMediator8\1.0\References\CommonConfiguration\neutral\Microsoft.AdMediator.WindowsPhone8.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AdMediator.WindowsPhone8.MicrosoftAdvertising, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AdMediator.WindowsPhone8.MicrosoftAdvertising.2.0.1\lib\wp\Microsoft.AdMediator.WindowsPhone8.MicrosoftAdvertising.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.Advertising.Mobile, Version=6.2.40501.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\Microsoft.Advertising.WindowsPhone.SL80.6.2.40501.1\lib\wp8\Microsoft.Advertising.Mobile.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Advertising.Mobile.Common">
+      <HintPath>..\packages\Microsoft.Advertising.WindowsPhone.SL80.6.2.40501.1\lib\wp8\Microsoft.Advertising.Mobile.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Advertising.Mobile.UI, Version=6.2.40501.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\Microsoft.Advertising.WindowsPhone.SL80.6.2.40501.1\lib\wp8\Microsoft.Advertising.Mobile.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Phone.Controls, Version=8.0.0.0, Culture=neutral, PublicKeyToken=24eec0d8c86cda1e, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.Phone.Controls.Maps, Version=8.0.0.0, Culture=neutral, PublicKeyToken=24eec0d8c86cda1e, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.Phone.Controls.Toolkit">
+      <HintPath>..\..\Minha_Pilula\packages\SilverlightToolkitWP.4.2012.6.25\lib\sl4-windowsphone71\Microsoft.Phone.Controls.Toolkit.dll</HintPath>
+    </Reference>
+    <Reference Include="RateMyApp">
+      <HintPath>..\packages\RateMyApp.1.1.0\lib\sl4-wp71\RateMyApp.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath)\Microsoft\$(TargetFrameworkIdentifier)\$(TargetFrameworkVersion)\Microsoft.$(TargetFrameworkIdentifier).$(TargetFrameworkVersion).Overrides.targets" />
+  <Import Project="$(MSBuildExtensionsPath)\Microsoft\$(TargetFrameworkIdentifier)\$(TargetFrameworkVersion)\Microsoft.$(TargetFrameworkIdentifier).CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <ProjectExtensions />
+  <Import Project="$(MSBuildExtensionsPath)\Microsoft\Expression\Blend\WindowsPhone\v8.0\Microsoft.Expression.Blend.WindowsPhone.targets" />
+</Project>
